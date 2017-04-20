@@ -1,0 +1,1 @@
+http://osmc.noaa.gov/erddap/tabledap/OSMC_30day.csv?#platform_code,time,latitude,longitude,observation_depth,ztmp,zsal#stationID.csv#propertyPos.csv
