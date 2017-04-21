@@ -11,6 +11,9 @@ public class ObservedProperty implements Serializable {
     private String propertyName;
     private String unit;
     private String dataValue;
+    public double tempSumValue=0;
+
+    public int count=0;
 
     public String getDataValue() {
         return dataValue;
@@ -44,4 +47,19 @@ public class ObservedProperty implements Serializable {
         this.propertyID = propertyID;
     }
 
+    public int getCount() {
+        return count;
+    }
+
+    public void setCount(int count) {
+        this.count = count;
+    }
+
+    public double getTempSumValue() {
+        return tempSumValue;
+    }
+
+    public void setTempSumValue(double tempSumValue) {
+        this.tempSumValue = tempSumValue;
+    }
 }

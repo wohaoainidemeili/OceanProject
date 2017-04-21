@@ -56,7 +56,6 @@ public class ObservationDownInsertTask extends TimerTask {
         // if not insert stationid without latesttime
         //else do nothing
         if (stationIDs.size()>=0){
-            downloadInsertStorage=new DownloadInsertStorage(stationIDs.size());//initial downloadInsertStorage
             //database operation
             List<String> stationDataBase= DataBaseOper.getStationIDs();
             for (String staionID:stationIDs){
@@ -72,6 +71,7 @@ public class ObservationDownInsertTask extends TimerTask {
     @Override
     public void run() {
         //download executor
+        downloadInsertStorage=new DownloadInsertStorage(stationIDs.size());//initial downloadInsertStorage
         for (int i=0;i<stationIDs.size();i++){
             ObservationDownThread observationDownThread=new ObservationDownThread(stationIDs.get(i),url,property,downloadInsertStorage);
             if (!downloadExecutorService.isShutdown()){

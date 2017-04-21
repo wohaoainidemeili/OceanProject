@@ -3,5 +3,5 @@ lat,2
 lon,3
 urn:ogc:def:phenomenon:OGC:1.0.30:position,-1
 urn:ogc:def:property:OGC:1.0:argoFloatObservationDepth,4
-urn:ogc:def:phenomenon:OGC:1.0.30:argoFloatZtmp,5
+urn:ogc:def:property:OGC:1.0:argoFloatZtmp,5
 urn:ogc:def:property:OGC:1.0:argoFloatZsal,6
