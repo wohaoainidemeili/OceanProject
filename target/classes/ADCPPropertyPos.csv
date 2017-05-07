@@ -1,0 +1,4 @@
+time,1
+urn:ogc:def:property:OGC:1.0:seaWaterVelocityObservationDepth,2
+urn:ogc:def:property:OGC:1.0:eastwardSeaWaterVelocity,3
+urn:ogc:def:property:OGC:1.0:northwardSeaWaterVelocity,4

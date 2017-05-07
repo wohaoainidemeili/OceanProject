@@ -22,7 +22,7 @@ import java.util.Map;
  */
 public class RegisterSensor {
     public static void main(String[] args) throws IOException, XmlException {
-        String[] Paths=new String[]{"E:\\教育部联合基金项目\\站点\\stations","E:\\教育部联合基金项目\\站点\\sensors"};
+        String[] Paths=new String[]{"E:\\教育部联合基金项目\\站点\\stations","E:\\教育部联合基金项目\\站点\\sensors","C:\\Users\\Yuan\\Desktop\\TaoPirataRama浮标-SLM-0505new\\Platform-128个","C:\\Users\\Yuan\\Desktop\\TaoPirataRama浮标-SLM-0505new\\Sensor-973个"};
         for (int i=0;i<Paths.length;i++) {
             File file = new File(Paths[i]);
             File[] files = file.listFiles();

@@ -19,13 +19,20 @@ public class ObservationDownInsertTask extends TimerTask {
     private List<String> stationIDs=new ArrayList<String>();
     private String url;
     private String property;
+    private String decodeFileClassName;//the class for ObservationInsertThread to decode download file
+    private String subFilePath;//download path for subpath
+    private String restrictProperty;
     private ExecutorService downloadExecutorService= Executors.newFixedThreadPool(10);
     private ExecutorService insertExecutorService=Executors.newFixedThreadPool(10);
     DownloadInsertStorage downloadInsertStorage=null;
     private java.util.Map<String,Integer> linkedProperty=new HashMap<String, Integer>();
-    public ObservationDownInsertTask(String url,String property,String stationIDFile,String linkedFile){
+    public ObservationDownInsertTask(String url,String property,String stationIDFile,String linkedFile,
+                                     String decodeFileClassName,String subFilePath,String restrictProperty){
         this.url=url;
         this.property=property;
+        this.decodeFileClassName=decodeFileClassName;
+        this.subFilePath=subFilePath;
+        this.restrictProperty=restrictProperty;
         //read IDs
         BufferedReader bufferedReader=new BufferedReader(new InputStreamReader(ClassLoader.getSystemResourceAsStream(stationIDFile)));
         String tempID=null;
@@ -73,14 +80,14 @@ public class ObservationDownInsertTask extends TimerTask {
         //download executor
         downloadInsertStorage=new DownloadInsertStorage(stationIDs.size());//initial downloadInsertStorage
         for (int i=0;i<stationIDs.size();i++){
-            ObservationDownThread observationDownThread=new ObservationDownThread(stationIDs.get(i),url,property,downloadInsertStorage);
+            ObservationDownThread observationDownThread=new ObservationDownThread(stationIDs.get(i),url,property,subFilePath,restrictProperty,downloadInsertStorage);
             if (!downloadExecutorService.isShutdown()){
                 downloadExecutorService.execute(observationDownThread);
             }
         }
         //insert executor
         for (int i=0;i<stationIDs.size();i++){
-            ObservationInsertThread observationInsertThread=new ObservationInsertThread(stationIDs.get(i),linkedProperty,downloadInsertStorage);
+            ObservationInsertThread observationInsertThread=new ObservationInsertThread(stationIDs.get(i),linkedProperty,subFilePath,decodeFileClassName,downloadInsertStorage);
             if (!insertExecutorService.isShutdown())
                 insertExecutorService.execute(observationInsertThread);
         }

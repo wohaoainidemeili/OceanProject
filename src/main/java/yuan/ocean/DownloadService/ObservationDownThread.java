@@ -11,10 +11,13 @@ import java.util.Date;
 public class ObservationDownThread extends Thread {
     String stationID;
     String downloadUrl;
+    String subFilePath;
+    String restrictProperty;
     DownloadInsertStorage downloadInsertStorage;
     String platCode;
-    public ObservationDownThread(String stationID,String url,String property,DownloadInsertStorage downloadInsertStorage){
+    public ObservationDownThread(String stationID,String url,String property,String subFilePath,String restrictProperty,DownloadInsertStorage downloadInsertStorage){
         //get the latesttime from database and create
+        this.subFilePath=subFilePath;
         this.stationID=stationID;
         int index= stationID.lastIndexOf("-");
         platCode=stationID.substring(index+1,stationID.length());
@@ -26,15 +29,21 @@ public class ObservationDownThread extends Thread {
         if (date==null){
             date=new Date();
             dateStr= simpleDateFormat.format(date).replace("+0800","Z");
-            downloadUrl=url+property+"&platform_code=\""+platCode+"\"&time<="+dateStr+"&orderBy(\"time\")";
+            if (restrictProperty.equals("platform_code"))
+                downloadUrl=url+property+"&"+restrictProperty+"=\""+platCode+"\"&time<="+dateStr+"&orderBy(\"time\")";
+            else
+                downloadUrl=url+property+"&"+restrictProperty+"="+platCode+"&time<="+dateStr+"&orderBy(\"time\")";
         }else {
             dateStr = simpleDateFormat.format(date).replace("+0800", "Z");
-            downloadUrl = url + property + "&platform_code=\"" + platCode + "\"&time>" + dateStr + "&orderBy(\"time\")";
+            if (restrictProperty.equals("platform_code"))
+                downloadUrl = url + property + "&"+restrictProperty+"=\"" + platCode + "\"&time>" + dateStr + "&orderBy(\"time\")";
+            else
+                downloadUrl = url + property + "&"+restrictProperty+"=" + platCode + "&time>" + dateStr + "&orderBy(\"time\")";
         }
     }
     @Override
     public void run() {
         //download file
-        downloadInsertStorage.downLoadFile(downloadUrl,platCode+".csv");
+        downloadInsertStorage.downLoadFile(downloadUrl,subFilePath,platCode+".csv");
     }
 }

@@ -22,12 +22,12 @@ import java.util.Map;
  */
 public class ERDDAPDecodeFile implements IDecodeFile {
     private static final Logger log=Logger.getLogger(ERDDAPDecodeFile.class);
-    public void decode(Map<String, Integer> linkedProperty, String paltCode, Station station) {
+    public void decode(Map<String, Integer> linkedProperty, String paltCode, Station station,String subFilePath) {
         //if file exists read file and insert Observation
-        File file = new File("E:\\download\\" + paltCode + ".csv");
+        File file = new File(SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\" + paltCode + ".csv");
         if (file.exists()) {
             try {
-                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream("E:\\download\\" + paltCode + ".csv")));
+                BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(new FileInputStream(SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\" + paltCode + ".csv")));
                 String temp = null;
                 bufferedReader.readLine();
                 bufferedReader.readLine();

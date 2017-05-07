@@ -1,0 +1,5 @@
+time,1
+urn:ogc:def:property:OGC:1.0:precipitationObservationDepth,2
+urn:ogc:def:property:OGC:1.0:precipitation,3
+urn:ogc:def:property:OGC:1.0:precipitationStandardDeviation,4
+urn:ogc:def:property:OGC:1.0:precipitationPercentTimeRaining,5

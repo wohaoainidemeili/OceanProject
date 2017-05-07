@@ -14,14 +14,13 @@ import java.util.Properties;
 public class SensorConfigInfo {
     String URL="sos_url";
 
+    String DOWNLOADCACHEPATH="file_cache_path";
     static String url;
+    static String downloadpath;
 
     public SensorConfigInfo(Properties properties){
         setUrl(properties.getProperty(URL));
-
-    }
-    public static void test(){
-
+        setDownloadpath(properties.getProperty(DOWNLOADCACHEPATH));
     }
 
     public static String getUrl() {
@@ -32,4 +31,11 @@ public class SensorConfigInfo {
         SensorConfigInfo.url = url;
     }
 
+    public static String getDownloadpath() {
+        return downloadpath;
+    }
+
+    public static void setDownloadpath(String downloadpath) {
+        SensorConfigInfo.downloadpath = downloadpath;
+    }
 }

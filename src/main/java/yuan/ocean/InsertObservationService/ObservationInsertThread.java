@@ -14,22 +14,28 @@ import java.util.Map;
 public class ObservationInsertThread extends Thread {
 
     Station station=null;
+    String subFilePath;
+    String fileDecodeClassName;
     DownloadInsertStorage downloadInsertStorage;
     Map linkedProperty=null;
-    public ObservationInsertThread(String stationID,Map linkedProperty,DownloadInsertStorage downloadInsertStorage){
+
+    public ObservationInsertThread(String stationID,Map linkedProperty,String subFilePath,String fileDecodeClassName,DownloadInsertStorage downloadInsertStorage){
         this.downloadInsertStorage=downloadInsertStorage;
         this.linkedProperty=linkedProperty;
+        this.subFilePath=subFilePath;
+        this.fileDecodeClassName=fileDecodeClassName;
         //get station data structure form sos
         try {
          station = Decode.parseSensorML(stationID);
         } catch (IOException e) {
             e.printStackTrace();
         } catch (XmlException e) {
+            System.out.println("This sensor has problem:"+stationID);
             e.printStackTrace();
         }
     }
     @Override
     public void run() {
-        downloadInsertStorage.insertObservation(station,linkedProperty);
+        downloadInsertStorage.insertObservation(station,subFilePath,fileDecodeClassName,linkedProperty);
     }
 }

@@ -1,0 +1,6 @@
+time,1
+urn:ogc:def:property:OGC:1.0:windObservationDepth,2
+urn:ogc:def:property:OGC:1.0:zonalWind,3
+urn:ogc:def:property:OGC:1.0:meridionalWind,4
+urn:ogc:def:property:OGC:1.0:windSpeed,5
+urn:ogc:def:property:OGC:1.0:windDirection,6
