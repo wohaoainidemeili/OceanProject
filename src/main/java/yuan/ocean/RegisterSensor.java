@@ -74,7 +74,7 @@ public class RegisterSensor {
         options.setSaveAggressiveNamespaces();
         options.setSavePrettyPrint();
         String registerXML= registerSensorDocument.xmlText(options);
-        String response= HttpRequestAndPost.sendPost("http://localhost:8080/SOS//sos", registerXML);
+        String response= HttpRequestAndPost.sendPost("http://202.114.118.60:9004/SOSv3.5.0/sos", registerXML);
         System.out.println(response);
     }
 }

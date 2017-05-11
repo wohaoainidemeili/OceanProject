@@ -10,6 +10,7 @@ public class StartLoadObservation {
         //read config.properies
         SensorConfigReader.reader();
         //initial the read stationIDs and start creating download operation task(Timer task)
-        InitialAllTask.startTask();
+        //InitialAllTask.startTask();
+        InitialAllTask.startTaskUsingScheduleExecutorService();
     }
 }

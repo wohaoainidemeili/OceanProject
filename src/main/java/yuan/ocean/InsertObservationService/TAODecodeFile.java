@@ -1,5 +1,6 @@
 package yuan.ocean.InsertObservationService;
 
+import org.apache.log4j.Logger;
 import yuan.ocean.DataBase.DataBaseOper;
 import yuan.ocean.Entity.ObservedProperty;
 import yuan.ocean.Entity.SOSWrapper;
@@ -20,6 +21,7 @@ import java.util.Map;
  * Created by Yuan on 2017/5/4.
  */
 public class TAODecodeFile implements IDecodeFile {
+    private final static Logger log=Logger.getLogger(TAODecodeFile.class);
     public void decode(Map<String, Integer> linkedProperty, String paltCode, Station station, String subFilePath) {
         System.out.println("reading file"+SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\"+paltCode+".csv");
         File file=new File(SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\"+paltCode+".csv");
@@ -106,6 +108,7 @@ public class TAODecodeFile implements IDecodeFile {
                                 //encode xml and insert into sos
                                 String insertXML = Encode.getInserObservationXML(sosWrapper);
                                 String responseXML = HttpRequestAndPost.sendPost(SensorConfigInfo.getUrl(), insertXML);
+                                log.info(responseXML);
 //                        System.out.println(responseXML);
 //                        //log info
 //                    }
@@ -123,10 +126,14 @@ public class TAODecodeFile implements IDecodeFile {
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
                 try {
                     Date date = simpleDateFormat.parse(dateLatestStr);
-                    Station station1 = new Station();
-                    station1.setStationID(station.getStationID());
-                    station1.setLastTime(date);
-                    DataBaseOper.updateStation(station1);
+                    Date date1= DataBaseOper.getLatestTime(station.getStationID());
+                    if (date1==null||date1.getTime()<date.getTime())
+                     {
+                        Station station1 = new Station();
+                        station1.setStationID(station.getStationID());
+                        station1.setLastTime(date);
+                        DataBaseOper.updateStation(station1);
+                    }
                 } catch (ParseException e) {
                     e.printStackTrace();
                 }

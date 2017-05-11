@@ -1,0 +1,626 @@
+[framework] 2017-05-11 15:26:46,227 - yuan.ocean.test -0    [main] INFO  yuan.ocean.test  - sdadsa
+[framework] 2017-05-11 15:26:46,378 - org.jboss.logging -151  [main] DEBUG org.jboss.logging  - Logging Provider: org.jboss.logging.Log4jLoggerProvider
+[framework] 2017-05-11 15:26:46,420 - org.hibernate.type.BasicTypeRegistry -193  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@10bbd20a
+[framework] 2017-05-11 15:26:46,420 - org.hibernate.type.BasicTypeRegistry -193  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration boolean -> org.hibernate.type.BooleanType@10bbd20a
+[framework] 2017-05-11 15:26:46,421 - org.hibernate.type.BasicTypeRegistry -194  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Boolean -> org.hibernate.type.BooleanType@10bbd20a
+[framework] 2017-05-11 15:26:46,423 - org.hibernate.type.BasicTypeRegistry -196  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration numeric_boolean -> org.hibernate.type.NumericBooleanType@396f6598
+[framework] 2017-05-11 15:26:46,426 - org.hibernate.type.BasicTypeRegistry -199  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration true_false -> org.hibernate.type.TrueFalseType@1786dec2
+[framework] 2017-05-11 15:26:46,428 - org.hibernate.type.BasicTypeRegistry -201  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration yes_no -> org.hibernate.type.YesNoType@4b1c1ea0
+[framework] 2017-05-11 15:26:46,432 - org.hibernate.type.BasicTypeRegistry -205  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@e320068
+[framework] 2017-05-11 15:26:46,432 - org.hibernate.type.BasicTypeRegistry -205  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte -> org.hibernate.type.ByteType@e320068
+[framework] 2017-05-11 15:26:46,433 - org.hibernate.type.BasicTypeRegistry -206  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Byte -> org.hibernate.type.ByteType@e320068
+[framework] 2017-05-11 15:26:46,435 - org.hibernate.type.BasicTypeRegistry -208  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration character -> org.hibernate.type.CharacterType@57e1b0c
+[framework] 2017-05-11 15:26:46,436 - org.hibernate.type.BasicTypeRegistry -209  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char -> org.hibernate.type.CharacterType@57e1b0c
+[framework] 2017-05-11 15:26:46,436 - org.hibernate.type.BasicTypeRegistry -209  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Character -> org.hibernate.type.CharacterType@57e1b0c
+[framework] 2017-05-11 15:26:46,447 - org.hibernate.type.BasicTypeRegistry -220  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@1563da5
+[framework] 2017-05-11 15:26:46,448 - org.hibernate.type.BasicTypeRegistry -221  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration short -> org.hibernate.type.ShortType@1563da5
+[framework] 2017-05-11 15:26:46,448 - org.hibernate.type.BasicTypeRegistry -221  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Short -> org.hibernate.type.ShortType@1563da5
+[framework] 2017-05-11 15:26:46,451 - org.hibernate.type.BasicTypeRegistry -224  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration integer -> org.hibernate.type.IntegerType@76b0bfab
+[framework] 2017-05-11 15:26:46,451 - org.hibernate.type.BasicTypeRegistry -224  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration int -> org.hibernate.type.IntegerType@76b0bfab
+[framework] 2017-05-11 15:26:46,452 - org.hibernate.type.BasicTypeRegistry -225  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Integer -> org.hibernate.type.IntegerType@76b0bfab
+[framework] 2017-05-11 15:26:46,458 - org.hibernate.type.BasicTypeRegistry -231  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@2a556333
+[framework] 2017-05-11 15:26:46,458 - org.hibernate.type.BasicTypeRegistry -231  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration long -> org.hibernate.type.LongType@2a556333
+[framework] 2017-05-11 15:26:46,459 - org.hibernate.type.BasicTypeRegistry -232  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Long -> org.hibernate.type.LongType@2a556333
+[framework] 2017-05-11 15:26:46,463 - org.hibernate.type.BasicTypeRegistry -236  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@1a8a8f7c
+[framework] 2017-05-11 15:26:46,464 - org.hibernate.type.BasicTypeRegistry -237  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration float -> org.hibernate.type.FloatType@1a8a8f7c
+[framework] 2017-05-11 15:26:46,464 - org.hibernate.type.BasicTypeRegistry -237  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Float -> org.hibernate.type.FloatType@1a8a8f7c
+[framework] 2017-05-11 15:26:46,467 - org.hibernate.type.BasicTypeRegistry -240  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@37d31475
+[framework] 2017-05-11 15:26:46,468 - org.hibernate.type.BasicTypeRegistry -241  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration double -> org.hibernate.type.DoubleType@37d31475
+[framework] 2017-05-11 15:26:46,468 - org.hibernate.type.BasicTypeRegistry -241  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Double -> org.hibernate.type.DoubleType@37d31475
+[framework] 2017-05-11 15:26:46,473 - org.hibernate.type.BasicTypeRegistry -246  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_decimal -> org.hibernate.type.BigDecimalType@687080dc
+[framework] 2017-05-11 15:26:46,473 - org.hibernate.type.BasicTypeRegistry -246  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigDecimal -> org.hibernate.type.BigDecimalType@687080dc
+[framework] 2017-05-11 15:26:46,480 - org.hibernate.type.BasicTypeRegistry -253  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration big_integer -> org.hibernate.type.BigIntegerType@29b5cd00
+[framework] 2017-05-11 15:26:46,481 - org.hibernate.type.BasicTypeRegistry -254  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.math.BigInteger -> org.hibernate.type.BigIntegerType@29b5cd00
+[framework] 2017-05-11 15:26:46,484 - org.hibernate.type.BasicTypeRegistry -257  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration string -> org.hibernate.type.StringType@59906517
+[framework] 2017-05-11 15:26:46,484 - org.hibernate.type.BasicTypeRegistry -257  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.String -> org.hibernate.type.StringType@59906517
+[framework] 2017-05-11 15:26:46,487 - org.hibernate.type.BasicTypeRegistry -260  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nstring -> org.hibernate.type.StringNVarcharType@670b40af
+[framework] 2017-05-11 15:26:46,490 - org.hibernate.type.BasicTypeRegistry -263  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ncharacter -> org.hibernate.type.CharacterNCharType@262b2c86
+[framework] 2017-05-11 15:26:46,492 - org.hibernate.type.BasicTypeRegistry -265  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration url -> org.hibernate.type.UrlType@1a3869f4
+[framework] 2017-05-11 15:26:46,492 - org.hibernate.type.BasicTypeRegistry -265  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.net.URL -> org.hibernate.type.UrlType@1a3869f4
+[framework] 2017-05-11 15:26:46,497 - org.hibernate.type.BasicTypeRegistry -270  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration date -> org.hibernate.type.DateType@612679d6
+[framework] 2017-05-11 15:26:46,498 - org.hibernate.type.BasicTypeRegistry -271  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Date -> org.hibernate.type.DateType@612679d6
+[framework] 2017-05-11 15:26:46,501 - org.hibernate.type.BasicTypeRegistry -274  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration time -> org.hibernate.type.TimeType@66d1af89
+[framework] 2017-05-11 15:26:46,502 - org.hibernate.type.BasicTypeRegistry -275  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Time -> org.hibernate.type.TimeType@66d1af89
+[framework] 2017-05-11 15:26:46,505 - org.hibernate.type.BasicTypeRegistry -278  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timestamp -> org.hibernate.type.TimestampType@3ecd23d9
+[framework] 2017-05-11 15:26:46,506 - org.hibernate.type.BasicTypeRegistry -279  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Timestamp -> org.hibernate.type.TimestampType@3ecd23d9
+[framework] 2017-05-11 15:26:46,507 - org.hibernate.type.BasicTypeRegistry -280  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Date -> org.hibernate.type.TimestampType@3ecd23d9
+[framework] 2017-05-11 15:26:46,510 - org.hibernate.type.BasicTypeRegistry -283  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration dbtimestamp -> org.hibernate.type.DbTimestampType@64f6106c
+[framework] 2017-05-11 15:26:46,512 - org.hibernate.type.BasicTypeRegistry -285  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar -> org.hibernate.type.CalendarType@28ac3dc3
+[framework] 2017-05-11 15:26:46,513 - org.hibernate.type.BasicTypeRegistry -286  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Calendar -> org.hibernate.type.CalendarType@28ac3dc3
+[framework] 2017-05-11 15:26:46,513 - org.hibernate.type.BasicTypeRegistry -286  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.GregorianCalendar -> org.hibernate.type.CalendarType@28ac3dc3
+[framework] 2017-05-11 15:26:46,515 - org.hibernate.type.BasicTypeRegistry -288  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration calendar_date -> org.hibernate.type.CalendarDateType@13eb8acf
+[framework] 2017-05-11 15:26:46,523 - org.hibernate.type.BasicTypeRegistry -296  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration locale -> org.hibernate.type.LocaleType@2a70a3d8
+[framework] 2017-05-11 15:26:46,524 - org.hibernate.type.BasicTypeRegistry -297  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Locale -> org.hibernate.type.LocaleType@2a70a3d8
+[framework] 2017-05-11 15:26:46,528 - org.hibernate.type.BasicTypeRegistry -301  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration currency -> org.hibernate.type.CurrencyType@396e2f39
+[framework] 2017-05-11 15:26:46,528 - org.hibernate.type.BasicTypeRegistry -301  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.Currency -> org.hibernate.type.CurrencyType@396e2f39
+[framework] 2017-05-11 15:26:46,533 - org.hibernate.type.BasicTypeRegistry -306  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration timezone -> org.hibernate.type.TimeZoneType@42607a4f
+[framework] 2017-05-11 15:26:46,533 - org.hibernate.type.BasicTypeRegistry -306  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.TimeZone -> org.hibernate.type.TimeZoneType@42607a4f
+[framework] 2017-05-11 15:26:46,536 - org.hibernate.type.BasicTypeRegistry -309  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration class -> org.hibernate.type.ClassType@544a2ea6
+[framework] 2017-05-11 15:26:46,537 - org.hibernate.type.BasicTypeRegistry -310  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Class -> org.hibernate.type.ClassType@544a2ea6
+[framework] 2017-05-11 15:26:46,541 - org.hibernate.type.BasicTypeRegistry -314  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-binary -> org.hibernate.type.UUIDBinaryType@10a035a0
+[framework] 2017-05-11 15:26:46,542 - org.hibernate.type.BasicTypeRegistry -315  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.util.UUID -> org.hibernate.type.UUIDBinaryType@10a035a0
+[framework] 2017-05-11 15:26:46,543 - org.hibernate.type.BasicTypeRegistry -316  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration uuid-char -> org.hibernate.type.UUIDCharType@4d1b0d2a
+[framework] 2017-05-11 15:26:46,545 - org.hibernate.type.BasicTypeRegistry -318  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration pg-uuid -> org.hibernate.type.PostgresUUIDType@306279ee
+[framework] 2017-05-11 15:26:46,549 - org.hibernate.type.BasicTypeRegistry -322  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration binary -> org.hibernate.type.BinaryType@704921a5
+[framework] 2017-05-11 15:26:46,549 - org.hibernate.type.BasicTypeRegistry -322  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration byte[] -> org.hibernate.type.BinaryType@704921a5
+[framework] 2017-05-11 15:26:46,549 - org.hibernate.type.BasicTypeRegistry -322  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [B -> org.hibernate.type.BinaryType@704921a5
+[framework] 2017-05-11 15:26:46,552 - org.hibernate.type.BasicTypeRegistry -325  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-binary -> org.hibernate.type.WrapperBinaryType@5c18298f
+[framework] 2017-05-11 15:26:46,552 - org.hibernate.type.BasicTypeRegistry -325  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Byte[] -> org.hibernate.type.WrapperBinaryType@5c18298f
+[framework] 2017-05-11 15:26:46,553 - org.hibernate.type.BasicTypeRegistry -326  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Byte; -> org.hibernate.type.WrapperBinaryType@5c18298f
+[framework] 2017-05-11 15:26:46,554 - org.hibernate.type.BasicTypeRegistry -327  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration image -> org.hibernate.type.ImageType@5d11346a
+[framework] 2017-05-11 15:26:46,557 - org.hibernate.type.BasicTypeRegistry -330  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration characters -> org.hibernate.type.CharArrayType@6fb0d3ed
+[framework] 2017-05-11 15:26:46,557 - org.hibernate.type.BasicTypeRegistry -330  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration char[] -> org.hibernate.type.CharArrayType@6fb0d3ed
+[framework] 2017-05-11 15:26:46,558 - org.hibernate.type.BasicTypeRegistry -331  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [C -> org.hibernate.type.CharArrayType@6fb0d3ed
+[framework] 2017-05-11 15:26:46,560 - org.hibernate.type.BasicTypeRegistry -333  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration wrapper-characters -> org.hibernate.type.CharacterArrayType@35a50a4c
+[framework] 2017-05-11 15:26:46,560 - org.hibernate.type.BasicTypeRegistry -333  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration [Ljava.lang.Character; -> org.hibernate.type.CharacterArrayType@35a50a4c
+[framework] 2017-05-11 15:26:46,560 - org.hibernate.type.BasicTypeRegistry -333  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration Character[] -> org.hibernate.type.CharacterArrayType@35a50a4c
+[framework] 2017-05-11 15:26:46,563 - org.hibernate.type.BasicTypeRegistry -336  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration text -> org.hibernate.type.TextType@6d3af739
+[framework] 2017-05-11 15:26:46,565 - org.hibernate.type.BasicTypeRegistry -338  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration ntext -> org.hibernate.type.NTextType@5a4041cc
+[framework] 2017-05-11 15:26:46,577 - org.hibernate.type.BasicTypeRegistry -350  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration blob -> org.hibernate.type.BlobType@5e57643e
+[framework] 2017-05-11 15:26:46,577 - org.hibernate.type.BasicTypeRegistry -350  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Blob -> org.hibernate.type.BlobType@5e57643e
+[framework] 2017-05-11 15:26:46,579 - org.hibernate.type.BasicTypeRegistry -352  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_blob -> org.hibernate.type.MaterializedBlobType@7f416310
+[framework] 2017-05-11 15:26:46,593 - org.hibernate.type.BasicTypeRegistry -366  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration clob -> org.hibernate.type.ClobType@7181ae3f
+[framework] 2017-05-11 15:26:46,593 - org.hibernate.type.BasicTypeRegistry -366  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.Clob -> org.hibernate.type.ClobType@7181ae3f
+[framework] 2017-05-11 15:26:46,603 - org.hibernate.type.BasicTypeRegistry -376  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration nclob -> org.hibernate.type.NClobType@365c30cc
+[framework] 2017-05-11 15:26:46,603 - org.hibernate.type.BasicTypeRegistry -376  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.sql.NClob -> org.hibernate.type.NClobType@365c30cc
+[framework] 2017-05-11 15:26:46,604 - org.hibernate.type.BasicTypeRegistry -377  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_clob -> org.hibernate.type.MaterializedClobType@7fad8c79
+[framework] 2017-05-11 15:26:46,606 - org.hibernate.type.BasicTypeRegistry -379  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration materialized_nclob -> org.hibernate.type.MaterializedNClobType@4df828d7
+[framework] 2017-05-11 15:26:46,612 - org.hibernate.type.BasicTypeRegistry -385  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration serializable -> org.hibernate.type.SerializableType@23bb8443
+[framework] 2017-05-11 15:26:46,667 - org.hibernate.type.BasicTypeRegistry -440  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration object -> org.hibernate.type.ObjectType@6b67034
+[framework] 2017-05-11 15:26:46,667 - org.hibernate.type.BasicTypeRegistry -440  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration java.lang.Object -> org.hibernate.type.ObjectType@6b67034
+[framework] 2017-05-11 15:26:46,669 - org.hibernate.type.BasicTypeRegistry -442  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_date -> org.hibernate.type.AdaptedImmutableType@442675e1
+[framework] 2017-05-11 15:26:46,669 - org.hibernate.type.BasicTypeRegistry -442  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_time -> org.hibernate.type.AdaptedImmutableType@6166e06f
+[framework] 2017-05-11 15:26:46,670 - org.hibernate.type.BasicTypeRegistry -443  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_timestamp -> org.hibernate.type.AdaptedImmutableType@49e202ad
+[framework] 2017-05-11 15:26:46,670 - org.hibernate.type.BasicTypeRegistry -443  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_dbtimestamp -> org.hibernate.type.AdaptedImmutableType@1c72da34
+[framework] 2017-05-11 15:26:46,671 - org.hibernate.type.BasicTypeRegistry -444  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar -> org.hibernate.type.AdaptedImmutableType@6b0c2d26
+[framework] 2017-05-11 15:26:46,671 - org.hibernate.type.BasicTypeRegistry -444  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_calendar_date -> org.hibernate.type.AdaptedImmutableType@3d3fcdb0
+[framework] 2017-05-11 15:26:46,671 - org.hibernate.type.BasicTypeRegistry -444  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_binary -> org.hibernate.type.AdaptedImmutableType@641147d0
+[framework] 2017-05-11 15:26:46,672 - org.hibernate.type.BasicTypeRegistry -445  [main] DEBUG org.hibernate.type.BasicTypeRegistry  - Adding type registration imm_serializable -> org.hibernate.type.AdaptedImmutableType@6e38921c
+[framework] 2017-05-11 15:26:46,743 - org.hibernate.annotations.common.Version -516  [main] INFO  org.hibernate.annotations.common.Version  - HCANN000001: Hibernate Commons Annotations {4.0.5.Final}
+[framework] 2017-05-11 15:26:46,764 - org.hibernate.Version -537  [main] INFO  org.hibernate.Version  - HHH000412: Hibernate Core {4.3.11.Final}
+[framework] 2017-05-11 15:26:46,771 - org.hibernate.cfg.Environment -544  [main] INFO  org.hibernate.cfg.Environment  - HHH000206: hibernate.properties not found
+[framework] 2017-05-11 15:26:46,778 - org.hibernate.cfg.Environment -551  [main] INFO  org.hibernate.cfg.Environment  - HHH000021: Bytecode provider name : javassist
+[framework] 2017-05-11 15:26:46,831 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -604  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid2] -> [org.hibernate.id.UUIDGenerator]
+[framework] 2017-05-11 15:26:46,832 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -605  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [guid] -> [org.hibernate.id.GUIDGenerator]
+[framework] 2017-05-11 15:26:46,834 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -607  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid] -> [org.hibernate.id.UUIDHexGenerator]
+[framework] 2017-05-11 15:26:46,835 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -608  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [uuid.hex] -> [org.hibernate.id.UUIDHexGenerator]
+[framework] 2017-05-11 15:26:46,845 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -618  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [hilo] -> [org.hibernate.id.TableHiLoGenerator]
+[framework] 2017-05-11 15:26:46,846 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -619  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [assigned] -> [org.hibernate.id.Assigned]
+[framework] 2017-05-11 15:26:46,849 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -622  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [identity] -> [org.hibernate.id.IdentityGenerator]
+[framework] 2017-05-11 15:26:46,850 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -623  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [select] -> [org.hibernate.id.SelectGenerator]
+[framework] 2017-05-11 15:26:46,851 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -624  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence] -> [org.hibernate.id.SequenceGenerator]
+[framework] 2017-05-11 15:26:46,852 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -625  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [seqhilo] -> [org.hibernate.id.SequenceHiLoGenerator]
+[framework] 2017-05-11 15:26:46,853 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -626  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [increment] -> [org.hibernate.id.IncrementGenerator]
+[framework] 2017-05-11 15:26:46,854 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -627  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [foreign] -> [org.hibernate.id.ForeignGenerator]
+[framework] 2017-05-11 15:26:46,855 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -628  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [sequence-identity] -> [org.hibernate.id.SequenceIdentityGenerator]
+[framework] 2017-05-11 15:26:46,856 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -629  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-sequence] -> [org.hibernate.id.enhanced.SequenceStyleGenerator]
+[framework] 2017-05-11 15:26:46,857 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -630  [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Registering IdentifierGenerator strategy [enhanced-table] -> [org.hibernate.id.enhanced.TableGenerator]
+[framework] 2017-05-11 15:26:46,866 - org.hibernate.cfg.Configuration -639  [main] INFO  org.hibernate.cfg.Configuration  - HHH000044: Configuring from URL: file:/E:/%e6%95%99%e8%82%b2%e9%83%a8%e8%81%94%e5%90%88%e5%9f%ba%e9%87%91%e9%a1%b9%e7%9b%ae/OceanProject/target/classes/hibernate.cfg.xml
+[framework] 2017-05-11 15:26:46,982 - org.hibernate.internal.util.xml.DTDEntityResolver -755  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd]
+[framework] 2017-05-11 15:26:46,982 - org.hibernate.internal.util.xml.DTDEntityResolver -755  [main] WARN  org.hibernate.internal.util.xml.DTDEntityResolver  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[framework] 2017-05-11 15:26:46,982 - org.hibernate.internal.util.xml.DTDEntityResolver -755  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Attempting to resolve on classpath under org/hibernate/
+[framework] 2017-05-11 15:26:46,983 - org.hibernate.internal.util.xml.DTDEntityResolver -756  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd] in classpath
+[framework] 2017-05-11 15:26:47,031 - org.hibernate.cfg.Configuration -804  [main] DEBUG org.hibernate.cfg.Configuration  - connection.url=jdbc:postgresql://localhost:5432/InsertTest
+[framework] 2017-05-11 15:26:47,031 - org.hibernate.cfg.Configuration -804  [main] DEBUG org.hibernate.cfg.Configuration  - connection.username=postgres
+[framework] 2017-05-11 15:26:47,031 - org.hibernate.cfg.Configuration -804  [main] DEBUG org.hibernate.cfg.Configuration  - connection.password=930316
+[framework] 2017-05-11 15:26:47,031 - org.hibernate.cfg.Configuration -804  [main] DEBUG org.hibernate.cfg.Configuration  - connection.driver_class=org.postgresql.Driver
+[framework] 2017-05-11 15:26:47,032 - org.hibernate.cfg.Configuration -805  [main] DEBUG org.hibernate.cfg.Configuration  - dialect=org.hibernate.dialect.PostgreSQL9Dialect
+[framework] 2017-05-11 15:26:47,032 - org.hibernate.cfg.Configuration -805  [main] DEBUG org.hibernate.cfg.Configuration  - current_session_context_class=thread
+[framework] 2017-05-11 15:26:47,032 - org.hibernate.cfg.Configuration -805  [main] DEBUG org.hibernate.cfg.Configuration  - hbm2ddl.auto=update
+[framework] 2017-05-11 15:26:47,033 - org.hibernate.cfg.Configuration -806  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [yuan/ocean/Entity/Station.hbm.xml] for mapping
+[framework] 2017-05-11 15:26:47,033 - org.hibernate.cfg.Configuration -806  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: yuan/ocean/Entity/Station.hbm.xml
+[framework] 2017-05-11 15:26:47,089 - org.hibernate.internal.util.xml.DTDEntityResolver -862  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[framework] 2017-05-11 15:26:47,089 - org.hibernate.internal.util.xml.DTDEntityResolver -862  [main] WARN  org.hibernate.internal.util.xml.DTDEntityResolver  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[framework] 2017-05-11 15:26:47,089 - org.hibernate.internal.util.xml.DTDEntityResolver -862  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Attempting to resolve on classpath under org/hibernate/
+[framework] 2017-05-11 15:26:47,090 - org.hibernate.internal.util.xml.DTDEntityResolver -863  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[framework] 2017-05-11 15:26:47,141 - org.hibernate.cfg.Configuration -914  [main] DEBUG org.hibernate.cfg.Configuration  - Session-factory config [null] named resource [yuan/ocean/Entity/TestMy.hbm.xml] for mapping
+[framework] 2017-05-11 15:26:47,141 - org.hibernate.cfg.Configuration -914  [main] INFO  org.hibernate.cfg.Configuration  - HHH000221: Reading mappings from resource: yuan/ocean/Entity/TestMy.hbm.xml
+[framework] 2017-05-11 15:26:47,145 - org.hibernate.internal.util.xml.DTDEntityResolver -918  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Trying to resolve system-id [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd]
+[framework] 2017-05-11 15:26:47,145 - org.hibernate.internal.util.xml.DTDEntityResolver -918  [main] WARN  org.hibernate.internal.util.xml.DTDEntityResolver  - HHH000223: Recognized obsolete hibernate namespace http://hibernate.sourceforge.net/. Use namespace http://www.hibernate.org/dtd/ instead. Refer to Hibernate 3.6 Migration Guide!
+[framework] 2017-05-11 15:26:47,145 - org.hibernate.internal.util.xml.DTDEntityResolver -918  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Attempting to resolve on classpath under org/hibernate/
+[framework] 2017-05-11 15:26:47,146 - org.hibernate.internal.util.xml.DTDEntityResolver -919  [main] DEBUG org.hibernate.internal.util.xml.DTDEntityResolver  - Located [http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd] in classpath
+[framework] 2017-05-11 15:26:47,165 - org.hibernate.cfg.Configuration -938  [main] INFO  org.hibernate.cfg.Configuration  - HHH000041: Configured SessionFactory: null
+[framework] 2017-05-11 15:26:47,166 - org.hibernate.cfg.Configuration -939  [main] DEBUG org.hibernate.cfg.Configuration  - Properties: {hibernate.connection.password=930316, java.runtime.name=Java(TM) SE Runtime Environment, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_102\jre\bin, java.vm.version=25.102-b14, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=E:\教育部联合基金项目\OceanProject, java.runtime.version=1.8.0_102-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, hibernate.current_session_context_class=thread, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Yuan\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;D:\Matlab\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Python26\ArcGIS10.0;C:\Python26\ArcGIS10.0\Scripts;C:\Users\Yuan\AppData\Local\Microsoft\WindowsApps;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, connection.password=930316, user.home=C:\Users\Yuan, user.timezone=Asia/Shanghai, connection.username=postgres, java.awt.printerjob=sun.awt.windows.WPrinterJob, file.encoding=GBK, java.specification.version=1.8, hibernate.connection.driver_class=org.postgresql.Driver, java.class.path=C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\zipfs.jar;E:\教育部联合基金项目\OceanProject\target\classes;C:\Users\Yuan\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Yuan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.5.0\xmlbeans-2.5.0.jar;C:\Users\Yuan\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-gml-v321\1.1.2\52n-xml-gml-v321-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-xlink-v110\1.0.0\52n-xml-xlink-v110-1.0.0.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-filter-v20\1.1.2\52n-xml-filter-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sweCommon-v20\1.1.2\52n-xml-sweCommon-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sweCommon-v101\1.1.2\52n-xml-sweCommon-v101-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sensorML-v101\1.1.2\52n-xml-sensorML-v101-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-om-v20\1.1.2\52n-xml-om-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sampling-v20\1.1.2\52n-xml-sampling-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-ows-v110\1.1.2\52n-xml-ows-v110-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sos-v20\1.1.2\52n-xml-sos-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-swes-v20\1.1.2\52n-xml-swes-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sos-v100\1.1.2\52n-xml-sos-v100-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-gml-v311\1.1.2\52n-xml-gml-v311-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-om-v100\1.1.2\52n-xml-om-v100-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sampling-v100\1.1.2\52n-xml-sampling-v100-1.1.2.jar;C:\Users\Yuan\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Yuan\.m2\repository\postgresql\postgresql\9.1-901.jdbc4\postgresql-9.1-901.jdbc4.jar;C:\Users\Yuan\.m2\repository\org\hibernate\hibernate-core\4.3.11.Final\hibernate-core-4.3.11.Final.jar;C:\Users\Yuan\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Yuan\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Yuan\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\Yuan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Yuan\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Yuan\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;C:\Users\Yuan\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Yuan\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Yuan\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Yuan\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\Yuan\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.11.Final\hibernate-entitymanager-4.3.11.Final.jar;C:\Users\Yuan\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;D:\Intelij Idea\IntelliJ IDEA 14.1.6\lib\idea_rt.jar, user.name=Yuan, hibernate.bytecode.use_reflection_optimizer=false, current_session_context_class=thread, java.vm.specification.version=1.8, sun.java.command=yuan.ocean.test, java.home=C:\Program Files\Java\jdk1.8.0_102\jre, sun.arch.data.model=64, hibernate.dialect=org.hibernate.dialect.PostgreSQL9Dialect, hibernate.connection.url=jdbc:postgresql://localhost:5432/InsertTest, user.language=zh, java.specification.vendor=Oracle Corporation, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_102, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes, java.vendor=Oracle Corporation, connection.driver_class=org.postgresql.Driver, file.separator=\, hibernate.hbm2ddl.auto=update, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, sun.io.unicode.encoding=UnicodeLittle, sun.cpu.endian=little, sun.desktop=windows, connection.url=jdbc:postgresql://localhost:5432/InsertTest, dialect=org.hibernate.dialect.PostgreSQL9Dialect, sun.cpu.isalist=amd64}
+[framework] 2017-05-11 15:26:47,266 - org.hibernate.integrator.internal.IntegratorServiceImpl -1039 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cfg.beanvalidation.BeanValidationIntegrator].
+[framework] 2017-05-11 15:26:47,271 - org.hibernate.integrator.internal.IntegratorServiceImpl -1044 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.secure.spi.JaccIntegrator].
+[framework] 2017-05-11 15:26:47,274 - org.hibernate.integrator.internal.IntegratorServiceImpl -1047 [main] DEBUG org.hibernate.integrator.internal.IntegratorServiceImpl  - Adding Integrator [org.hibernate.cache.internal.CollectionCacheInvalidator].
+[framework] 2017-05-11 15:26:47,316 - org.hibernate.boot.registry.selector.internal.StrategySelectorImpl -1089 [main] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5] -> [org.hibernate.dialect.MySQL5Dialect] (replacing [org.hibernate.dialect.MySQL5Dialect])
+[framework] 2017-05-11 15:26:47,316 - org.hibernate.boot.registry.selector.internal.StrategySelectorImpl -1089 [main] DEBUG org.hibernate.boot.registry.selector.internal.StrategySelectorImpl  - Registering named strategy selector [org.hibernate.dialect.Dialect] : [MySQL5InnoDB] -> [org.hibernate.dialect.MySQL5InnoDBDialect] (replacing [org.hibernate.dialect.MySQL5InnoDBDialect])
+[framework] 2017-05-11 15:26:47,413 - org.hibernate.service.spi.ServiceBinding -1186 [main] DEBUG org.hibernate.service.spi.ServiceBinding  - Overriding existing service binding [org.hibernate.secure.spi.JaccService]
+[framework] 2017-05-11 15:26:47,415 - org.hibernate.cfg.Configuration -1188 [main] DEBUG org.hibernate.cfg.Configuration  - Preparing to build session factory with filters : {}
+[framework] 2017-05-11 15:26:47,430 - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl -1203 [main] WARN  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000402: Using Hibernate built-in connection pool (not for production use!)
+[framework] 2017-05-11 15:26:47,441 - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl -1214 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000401: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/InsertTest]
+[framework] 2017-05-11 15:26:47,442 - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl -1215 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000046: Connection properties: {user=postgres, password=930316}
+[framework] 2017-05-11 15:26:47,446 - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl -1219 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000006: Autocommit mode: false
+[framework] 2017-05-11 15:26:47,451 - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl -1224 [main] INFO  org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - HHH000115: Hibernate connection pool size: 20 (min=1)
+[framework] 2017-05-11 15:26:47,451 - org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl -1224 [main] DEBUG org.hibernate.engine.jdbc.connections.internal.DriverManagerConnectionProviderImpl  - Initializing Connection pool with 1 Connections
+[framework] 2017-05-11 15:26:47,646 - org.hibernate.engine.jdbc.internal.JdbcServicesImpl -1419 [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Database ->
+       name : PostgreSQL
+    version : 9.2.1
+      major : 9
+      minor : 2
+[framework] 2017-05-11 15:26:47,646 - org.hibernate.engine.jdbc.internal.JdbcServicesImpl -1419 [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - Driver ->
+       name : PostgreSQL Native Driver
+    version : PostgreSQL 9.0 JDBC4 (build 801)
+      major : 9
+      minor : 0
+[framework] 2017-05-11 15:26:47,646 - org.hibernate.engine.jdbc.internal.JdbcServicesImpl -1419 [main] DEBUG org.hibernate.engine.jdbc.internal.JdbcServicesImpl  - JDBC version : 4.0
+[framework] 2017-05-11 15:26:47,650 - org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport -1423 [main] DEBUG org.hibernate.engine.jdbc.cursor.internal.StandardRefCursorSupport  - Unexpected error trying to gauge level of JDBC REF_CURSOR support : null
+[framework] 2017-05-11 15:26:47,960 - org.hibernate.dialect.Dialect -1733 [main] INFO  org.hibernate.dialect.Dialect  - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL9Dialect
+[framework] 2017-05-11 15:26:48,005 - org.hibernate.engine.jdbc.internal.LobCreatorBuilder -1778 [main] INFO  org.hibernate.engine.jdbc.internal.LobCreatorBuilder  - HHH000424: Disabling contextual LOB creation as createClob() method threw error : java.lang.reflect.InvocationTargetException
+[framework] 2017-05-11 15:26:48,120 - org.hibernate.cfg.Configuration -1893 [main] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+[framework] 2017-05-11 15:26:48,182 - org.hibernate.cfg.HbmBinder -1955 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: yuan.ocean.Entity.Station -> tstation
+[framework] 2017-05-11 15:26:48,244 - org.hibernate.cfg.HbmBinder -2017 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: stationID -> stationID
+[framework] 2017-05-11 15:26:48,255 - org.hibernate.cfg.HbmBinder -2028 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: lastTime -> lastTime
+[framework] 2017-05-11 15:26:48,256 - org.hibernate.cfg.HbmBinder -2029 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapping class: yuan.ocean.Entity.TestMy -> testMy
+[framework] 2017-05-11 15:26:48,258 - org.hibernate.cfg.HbmBinder -2031 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: wo -> wo
+[framework] 2017-05-11 15:26:48,258 - org.hibernate.cfg.HbmBinder -2031 [main] DEBUG org.hibernate.cfg.HbmBinder  - Mapped property: cao -> cao
+[framework] 2017-05-11 15:26:48,258 - org.hibernate.cfg.Configuration -2031 [main] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+[framework] 2017-05-11 15:26:48,261 - org.hibernate.cfg.Configuration -2034 [main] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+[framework] 2017-05-11 15:26:48,263 - org.hibernate.cfg.Configuration -2036 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[framework] 2017-05-11 15:26:48,264 - org.hibernate.cfg.Configuration -2037 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[framework] 2017-05-11 15:26:48,264 - org.hibernate.cfg.Configuration -2037 [main] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+[framework] 2017-05-11 15:26:48,264 - org.hibernate.cfg.Configuration -2037 [main] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+[framework] 2017-05-11 15:26:48,264 - org.hibernate.cfg.Configuration -2037 [main] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+[framework] 2017-05-11 15:26:48,264 - org.hibernate.cfg.Configuration -2037 [main] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+[framework] 2017-05-11 15:26:48,264 - org.hibernate.cfg.Configuration -2037 [main] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+[framework] 2017-05-11 15:26:48,270 - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator -2043 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator  - No JtaPlatform was specified, checking resolver
+[framework] 2017-05-11 15:26:48,271 - org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator -2044 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformResolverInitiator  - No JtaPlatformResolver was specified, using default [org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver]
+[framework] 2017-05-11 15:26:48,293 - org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver -2066 [main] DEBUG org.hibernate.engine.transaction.jta.platform.internal.StandardJtaPlatformResolver  - Could not resolve JtaPlatform, using default [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+[framework] 2017-05-11 15:26:48,314 - org.hibernate.cfg.SettingsFactory -2087 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic flush during beforeCompletion(): disabled
+[framework] 2017-05-11 15:26:48,315 - org.hibernate.cfg.SettingsFactory -2088 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic session close at end of transaction: disabled
+[framework] 2017-05-11 15:26:48,315 - org.hibernate.cfg.SettingsFactory -2088 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch size: 15
+[framework] 2017-05-11 15:26:48,316 - org.hibernate.cfg.SettingsFactory -2089 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC batch updates for versioned data: disabled
+[framework] 2017-05-11 15:26:48,316 - org.hibernate.cfg.SettingsFactory -2089 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Scrollable result sets: enabled
+[framework] 2017-05-11 15:26:48,316 - org.hibernate.cfg.SettingsFactory -2089 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Wrap result sets: disabled
+[framework] 2017-05-11 15:26:48,316 - org.hibernate.cfg.SettingsFactory -2089 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JDBC3 getGeneratedKeys(): enabled
+[framework] 2017-05-11 15:26:48,316 - org.hibernate.cfg.SettingsFactory -2089 [main] DEBUG org.hibernate.cfg.SettingsFactory  - multi-tenancy strategy : NONE
+[framework] 2017-05-11 15:26:48,316 - org.hibernate.cfg.SettingsFactory -2089 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Connection release mode: auto
+[framework] 2017-05-11 15:26:48,318 - org.hibernate.engine.transaction.internal.TransactionFactoryInitiator -2091 [main] INFO  org.hibernate.engine.transaction.internal.TransactionFactoryInitiator  - HHH000399: Using default transaction strategy (direct JDBC transactions)
+[framework] 2017-05-11 15:26:48,327 - org.hibernate.cfg.SettingsFactory -2100 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Using BatchFetchStyle : LEGACY
+[framework] 2017-05-11 15:26:48,328 - org.hibernate.cfg.SettingsFactory -2101 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default batch fetch size: 1
+[framework] 2017-05-11 15:26:48,328 - org.hibernate.cfg.SettingsFactory -2101 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Generate SQL with comments: disabled
+[framework] 2017-05-11 15:26:48,340 - org.hibernate.cfg.SettingsFactory -2113 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL updates by primary key: disabled
+[framework] 2017-05-11 15:26:48,344 - org.hibernate.cfg.SettingsFactory -2117 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Order SQL inserts for batching: disabled
+[framework] 2017-05-11 15:26:48,344 - org.hibernate.cfg.SettingsFactory -2117 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default null ordering: none
+[framework] 2017-05-11 15:26:48,346 - org.hibernate.cfg.SettingsFactory -2119 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query translator: org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory
+[framework] 2017-05-11 15:26:48,351 - org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory -2124 [main] INFO  org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory  - HHH000397: Using ASTQueryTranslatorFactory
+[framework] 2017-05-11 15:26:48,351 - org.hibernate.cfg.SettingsFactory -2124 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query language substitutions: {}
+[framework] 2017-05-11 15:26:48,351 - org.hibernate.cfg.SettingsFactory -2124 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JPA-QL strict compliance: disabled
+[framework] 2017-05-11 15:26:48,351 - org.hibernate.cfg.SettingsFactory -2124 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache: enabled
+[framework] 2017-05-11 15:26:48,351 - org.hibernate.cfg.SettingsFactory -2124 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Query cache: disabled
+[framework] 2017-05-11 15:26:48,353 - org.hibernate.cache.internal.RegionFactoryInitiator -2126 [main] DEBUG org.hibernate.cache.internal.RegionFactoryInitiator  - Cache region factory : org.hibernate.cache.internal.NoCachingRegionFactory
+[framework] 2017-05-11 15:26:48,362 - org.hibernate.cfg.SettingsFactory -2135 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Optimize cache for minimal puts: disabled
+[framework] 2017-05-11 15:26:48,362 - org.hibernate.cfg.SettingsFactory -2135 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Structured second-level cache entries: disabled
+[framework] 2017-05-11 15:26:48,362 - org.hibernate.cfg.SettingsFactory -2135 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Second-level cache direct-reference entries: disabled
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Automatic eviction of collection cache: disabled
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Statistics: disabled
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Deleted entity synthetic identifier rollback: disabled
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Default entity-mode: pojo
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Named query checking : enabled
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Check Nullability in Core (should be disabled when Bean Validation is on): enabled
+[framework] 2017-05-11 15:26:48,363 - org.hibernate.cfg.SettingsFactory -2136 [main] DEBUG org.hibernate.cfg.SettingsFactory  - Allow initialization of lazy state outside session : : disabled
+[framework] 2017-05-11 15:26:48,364 - org.hibernate.cfg.SettingsFactory -2137 [main] DEBUG org.hibernate.cfg.SettingsFactory  - JTA Track by Thread: enabled
+[framework] 2017-05-11 15:26:48,415 - org.hibernate.internal.SessionFactoryImpl -2188 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Building session factory
+[framework] 2017-05-11 15:26:48,440 - org.hibernate.internal.SessionFactoryImpl -2213 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Session factory constructed with filter configurations : {}
+[framework] 2017-05-11 15:26:48,440 - org.hibernate.internal.SessionFactoryImpl -2213 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiating session factory with properties: {java.runtime.name=Java(TM) SE Runtime Environment, hibernate.connection.password=930316, sun.boot.library.path=C:\Program Files\Java\jdk1.8.0_102\jre\bin, java.vm.version=25.102-b14, hibernate.connection.username=postgres, java.vm.vendor=Oracle Corporation, java.vendor.url=http://java.oracle.com/, path.separator=;, java.vm.name=Java HotSpot(TM) 64-Bit Server VM, file.encoding.pkg=sun.io, user.script=, user.country=CN, sun.java.launcher=SUN_STANDARD, sun.os.patch.level=, java.vm.specification.name=Java Virtual Machine Specification, user.dir=E:\教育部联合基金项目\OceanProject, java.runtime.version=1.8.0_102-b14, java.awt.graphicsenv=sun.awt.Win32GraphicsEnvironment, hbm2ddl.auto=update, hibernate.current_session_context_class=thread, java.endorsed.dirs=C:\Program Files\Java\jdk1.8.0_102\jre\lib\endorsed, os.arch=amd64, java.io.tmpdir=C:\Users\Yuan\AppData\Local\Temp\, line.separator=
+, java.vm.specification.vendor=Oracle Corporation, user.variant=, os.name=Windows 10, sun.jnu.encoding=GBK, java.library.path=C:\Program Files\Java\jdk1.8.0_102\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Java\jdk1.8.0_102\bin;C:\Program Files\Java\jdk1.8.0_102\jre\bin;D:\Matlab\runtime\win64;D:\Matlab\bin;D:\Matlab\polyspace\bin;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Python26\ArcGIS10.0;C:\Python26\ArcGIS10.0\Scripts;C:\Users\Yuan\AppData\Local\Microsoft\WindowsApps;;., java.specification.name=Java Platform API Specification, java.class.version=52.0, sun.management.compiler=HotSpot 64-Bit Tiered Compilers, os.version=10.0, user.home=C:\Users\Yuan, connection.password=930316, user.timezone=Asia/Shanghai, java.awt.printerjob=sun.awt.windows.WPrinterJob, connection.username=postgres, java.specification.version=1.8, file.encoding=GBK, hibernate.connection.driver_class=org.postgresql.Driver, user.name=Yuan, java.class.path=C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfxswt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\management-agent.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\plugin.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\cldrdata.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\jfxrt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\nashorn.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\sunpkcs11.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext\zipfs.jar;E:\教育部联合基金项目\OceanProject\target\classes;C:\Users\Yuan\.m2\repository\log4j\log4j\1.2.17\log4j-1.2.17.jar;C:\Users\Yuan\.m2\repository\org\apache\xmlbeans\xmlbeans\2.5.0\xmlbeans-2.5.0.jar;C:\Users\Yuan\.m2\repository\stax\stax-api\1.0.1\stax-api-1.0.1.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-gml-v321\1.1.2\52n-xml-gml-v321-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-xlink-v110\1.0.0\52n-xml-xlink-v110-1.0.0.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-filter-v20\1.1.2\52n-xml-filter-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sweCommon-v20\1.1.2\52n-xml-sweCommon-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sweCommon-v101\1.1.2\52n-xml-sweCommon-v101-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sensorML-v101\1.1.2\52n-xml-sensorML-v101-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-om-v20\1.1.2\52n-xml-om-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sampling-v20\1.1.2\52n-xml-sampling-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-ows-v110\1.1.2\52n-xml-ows-v110-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sos-v20\1.1.2\52n-xml-sos-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-swes-v20\1.1.2\52n-xml-swes-v20-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sos-v100\1.1.2\52n-xml-sos-v100-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-gml-v311\1.1.2\52n-xml-gml-v311-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-om-v100\1.1.2\52n-xml-om-v100-1.1.2.jar;C:\Users\Yuan\.m2\repository\org\n52\sensorweb\52n-xml-sampling-v100\1.1.2\52n-xml-sampling-v100-1.1.2.jar;C:\Users\Yuan\.m2\repository\commons-net\commons-net\3.6\commons-net-3.6.jar;C:\Users\Yuan\.m2\repository\postgresql\postgresql\9.1-901.jdbc4\postgresql-9.1-901.jdbc4.jar;C:\Users\Yuan\.m2\repository\org\hibernate\hibernate-core\4.3.11.Final\hibernate-core-4.3.11.Final.jar;C:\Users\Yuan\.m2\repository\org\jboss\logging\jboss-logging\3.1.3.GA\jboss-logging-3.1.3.GA.jar;C:\Users\Yuan\.m2\repository\org\jboss\logging\jboss-logging-annotations\1.2.0.Beta1\jboss-logging-annotations-1.2.0.Beta1.jar;C:\Users\Yuan\.m2\repository\org\jboss\spec\javax\transaction\jboss-transaction-api_1.2_spec\1.0.0.Final\jboss-transaction-api_1.2_spec-1.0.0.Final.jar;C:\Users\Yuan\.m2\repository\dom4j\dom4j\1.6.1\dom4j-1.6.1.jar;C:\Users\Yuan\.m2\repository\xml-apis\xml-apis\1.0.b2\xml-apis-1.0.b2.jar;C:\Users\Yuan\.m2\repository\org\hibernate\common\hibernate-commons-annotations\4.0.5.Final\hibernate-commons-annotations-4.0.5.Final.jar;C:\Users\Yuan\.m2\repository\org\hibernate\javax\persistence\hibernate-jpa-2.1-api\1.0.0.Final\hibernate-jpa-2.1-api-1.0.0.Final.jar;C:\Users\Yuan\.m2\repository\org\javassist\javassist\3.18.1-GA\javassist-3.18.1-GA.jar;C:\Users\Yuan\.m2\repository\antlr\antlr\2.7.7\antlr-2.7.7.jar;C:\Users\Yuan\.m2\repository\org\jboss\jandex\1.1.0.Final\jandex-1.1.0.Final.jar;C:\Users\Yuan\.m2\repository\org\hibernate\hibernate-entitymanager\4.3.11.Final\hibernate-entitymanager-4.3.11.Final.jar;C:\Users\Yuan\.m2\repository\com\fasterxml\classmate\1.3.3\classmate-1.3.3.jar;D:\Intelij Idea\IntelliJ IDEA 14.1.6\lib\idea_rt.jar, hibernate.bytecode.use_reflection_optimizer=false, current_session_context_class=thread, java.vm.specification.version=1.8, sun.arch.data.model=64, java.home=C:\Program Files\Java\jdk1.8.0_102\jre, sun.java.command=yuan.ocean.test, hibernate.connection.url=jdbc:postgresql://localhost:5432/InsertTest, hibernate.dialect=org.hibernate.dialect.PostgreSQL9Dialect, java.specification.vendor=Oracle Corporation, user.language=zh, awt.toolkit=sun.awt.windows.WToolkit, java.vm.info=mixed mode, java.version=1.8.0_102, java.ext.dirs=C:\Program Files\Java\jdk1.8.0_102\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext, sun.boot.class.path=C:\Program Files\Java\jdk1.8.0_102\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_102\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_102\jre\classes, java.vendor=Oracle Corporation, file.separator=\, connection.driver_class=org.postgresql.Driver, java.vendor.url.bug=http://bugreport.sun.com/bugreport/, hibernate.hbm2ddl.auto=update, sun.cpu.endian=little, sun.io.unicode.encoding=UnicodeLittle, sun.desktop=windows, connection.url=jdbc:postgresql://localhost:5432/InsertTest, sun.cpu.isalist=amd64, dialect=org.hibernate.dialect.PostgreSQL9Dialect}
+[framework] 2017-05-11 15:26:48,467 - org.hibernate.secure.spi.JaccIntegrator -2240 [main] DEBUG org.hibernate.secure.spi.JaccIntegrator  - Skipping JACC integration as it was not enabled
+[framework] 2017-05-11 15:26:48,468 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -2241 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQL9Dialect]
+[framework] 2017-05-11 15:26:48,470 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -2243 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQL9Dialect]
+[framework] 2017-05-11 15:26:48,898 - org.hibernate.persister.entity.AbstractEntityPersister -2671 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: yuan.ocean.Entity.Station
+[framework] 2017-05-11 15:26:48,899 - org.hibernate.persister.entity.AbstractEntityPersister -2672 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select stationID from tstation where stationID =?
+[framework] 2017-05-11 15:26:48,899 - org.hibernate.persister.entity.AbstractEntityPersister -2672 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select station_.stationID, station_.lastTime as lastTime2_1_ from tstation station_ where station_.stationID=?
+[framework] 2017-05-11 15:26:48,899 - org.hibernate.persister.entity.AbstractEntityPersister -2672 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into tstation (lastTime, stationID) values (?, ?)
+[framework] 2017-05-11 15:26:48,899 - org.hibernate.persister.entity.AbstractEntityPersister -2672 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update tstation set lastTime=? where stationID=?
+[framework] 2017-05-11 15:26:48,899 - org.hibernate.persister.entity.AbstractEntityPersister -2672 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from tstation where stationID=?
+[framework] 2017-05-11 15:26:48,966 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2739 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@4a9f80d3]
+[framework] 2017-05-11 15:26:48,970 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2743 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:48,970 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2743 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,022 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2795 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,054 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2827 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,060 - org.hibernate.loader.entity.plan.EntityLoader -2833 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [NONE]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=?
+[framework] 2017-05-11 15:26:49,060 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2833 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@332a7fce]
+[framework] 2017-05-11 15:26:49,060 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2833 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,061 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2834 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,061 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2834 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,061 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2834 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,062 - org.hibernate.loader.entity.plan.EntityLoader -2835 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [READ]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=?
+[framework] 2017-05-11 15:26:49,062 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2835 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@54361a9]
+[framework] 2017-05-11 15:26:49,062 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2835 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,062 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2835 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,063 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2836 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,063 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2836 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,064 - org.hibernate.loader.entity.plan.EntityLoader -2837 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [UPGRADE]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for update
+[framework] 2017-05-11 15:26:49,064 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2837 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@5217f3d0]
+[framework] 2017-05-11 15:26:49,064 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2837 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,064 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2837 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,064 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2837 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,065 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2838 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,065 - org.hibernate.loader.entity.plan.EntityLoader -2838 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [UPGRADE_NOWAIT]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for update nowait 
+[framework] 2017-05-11 15:26:49,066 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2839 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@293bb8a5]
+[framework] 2017-05-11 15:26:49,066 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2839 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,066 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2839 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,066 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2839 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,067 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2840 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,067 - org.hibernate.loader.entity.plan.EntityLoader -2840 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [UPGRADE_SKIPLOCKED]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for update
+[framework] 2017-05-11 15:26:49,067 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2840 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@6fa590ba]
+[framework] 2017-05-11 15:26:49,067 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2840 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,068 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2841 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,068 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2841 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,069 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2842 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,069 - org.hibernate.loader.entity.plan.EntityLoader -2842 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [FORCE]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for update nowait 
+[framework] 2017-05-11 15:26:49,069 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2842 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72e34f77]
+[framework] 2017-05-11 15:26:49,069 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2842 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,069 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2842 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,070 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2843 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,070 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2843 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,070 - org.hibernate.loader.entity.plan.EntityLoader -2843 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [PESSIMISTIC_READ]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for share
+[framework] 2017-05-11 15:26:49,071 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2844 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@389adf1d]
+[framework] 2017-05-11 15:26:49,071 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2844 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,071 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2844 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,071 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2844 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,074 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2847 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,074 - org.hibernate.loader.entity.plan.EntityLoader -2847 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [PESSIMISTIC_WRITE]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for update
+[framework] 2017-05-11 15:26:49,074 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2847 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@1fc0053e]
+[framework] 2017-05-11 15:26:49,074 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2847 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,075 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2848 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,075 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2848 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,075 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2848 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,076 - org.hibernate.loader.entity.plan.EntityLoader -2849 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [PESSIMISTIC_FORCE_INCREMENT]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=? for update nowait 
+[framework] 2017-05-11 15:26:49,076 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2849 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@47874b25]
+[framework] 2017-05-11 15:26:49,076 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2849 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,076 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2849 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,076 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2849 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,077 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2850 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,077 - org.hibernate.loader.entity.plan.EntityLoader -2850 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [OPTIMISTIC]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=?
+[framework] 2017-05-11 15:26:49,078 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2851 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@2c177f9e]
+[framework] 2017-05-11 15:26:49,078 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2851 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : lastTime
+[framework] 2017-05-11 15:26:49,078 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2851 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,078 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2851 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,079 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2852 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.Station)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.Station, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.Station)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.Station)
+          - SQL table alias mapping - station0_
+          - alias suffix - 0_
+          - suffixed key columns - {stationI1_1_0_}
+
+[framework] 2017-05-11 15:26:49,079 - org.hibernate.loader.entity.plan.EntityLoader -2852 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.Station [OPTIMISTIC_FORCE_INCREMENT]: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=?
+[framework] 2017-05-11 15:26:49,130 - org.hibernate.loader.Loader -2903 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity yuan.ocean.Entity.Station: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=?
+[framework] 2017-05-11 15:26:49,131 - org.hibernate.loader.Loader -2904 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity yuan.ocean.Entity.Station: select station0_.stationID as stationI1_1_0_, station0_.lastTime as lastTime2_1_0_ from tstation station0_ where station0_.stationID=?
+[framework] 2017-05-11 15:26:49,133 - org.hibernate.persister.entity.AbstractEntityPersister -2906 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  - Static SQL for entity: yuan.ocean.Entity.TestMy
+[framework] 2017-05-11 15:26:49,133 - org.hibernate.persister.entity.AbstractEntityPersister -2906 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Version select: select wo from testMy where wo =?
+[framework] 2017-05-11 15:26:49,133 - org.hibernate.persister.entity.AbstractEntityPersister -2906 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Snapshot select: select testmy_.wo, testmy_.cao as cao2_0_ from testMy testmy_ where testmy_.wo=?
+[framework] 2017-05-11 15:26:49,133 - org.hibernate.persister.entity.AbstractEntityPersister -2906 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Insert 0: insert into testMy (cao, wo) values (?, ?)
+[framework] 2017-05-11 15:26:49,133 - org.hibernate.persister.entity.AbstractEntityPersister -2906 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Update 0: update testMy set cao=? where wo=?
+[framework] 2017-05-11 15:26:49,136 - org.hibernate.persister.entity.AbstractEntityPersister -2909 [main] DEBUG org.hibernate.persister.entity.AbstractEntityPersister  -  Delete 0: delete from testMy where wo=?
+[framework] 2017-05-11 15:26:49,137 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2910 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@f415a95]
+[framework] 2017-05-11 15:26:49,137 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2910 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,137 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2910 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,138 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2911 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,143 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2916 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,143 - org.hibernate.loader.entity.plan.EntityLoader -2916 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [NONE]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=?
+[framework] 2017-05-11 15:26:49,143 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2916 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@724f138e]
+[framework] 2017-05-11 15:26:49,143 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2916 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,144 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2917 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,144 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2917 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,145 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2918 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,145 - org.hibernate.loader.entity.plan.EntityLoader -2918 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [READ]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=?
+[framework] 2017-05-11 15:26:49,145 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2918 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@32fe9d0a]
+[framework] 2017-05-11 15:26:49,145 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2918 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,145 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2918 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,145 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2918 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,146 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2919 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,147 - org.hibernate.loader.entity.plan.EntityLoader -2920 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [UPGRADE]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for update
+[framework] 2017-05-11 15:26:49,147 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2920 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@64da2a7]
+[framework] 2017-05-11 15:26:49,148 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2921 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,150 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2923 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,150 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2923 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,150 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2923 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,150 - org.hibernate.loader.entity.plan.EntityLoader -2923 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [UPGRADE_NOWAIT]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for update nowait 
+[framework] 2017-05-11 15:26:49,151 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2924 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@d78795]
+[framework] 2017-05-11 15:26:49,151 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2924 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,153 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2926 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,154 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2927 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,154 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2927 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,154 - org.hibernate.loader.entity.plan.EntityLoader -2927 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [UPGRADE_SKIPLOCKED]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for update
+[framework] 2017-05-11 15:26:49,154 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2927 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@7caa550]
+[framework] 2017-05-11 15:26:49,155 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2928 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,155 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2928 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,155 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2928 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,161 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2934 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,161 - org.hibernate.loader.entity.plan.EntityLoader -2934 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [FORCE]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for update nowait 
+[framework] 2017-05-11 15:26:49,162 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2935 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@72b16078]
+[framework] 2017-05-11 15:26:49,162 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2935 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,162 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2935 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,162 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2935 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,163 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2936 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,164 - org.hibernate.loader.entity.plan.EntityLoader -2937 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [PESSIMISTIC_READ]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for share
+[framework] 2017-05-11 15:26:49,164 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2937 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@70fab835]
+[framework] 2017-05-11 15:26:49,164 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2937 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,164 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2937 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,165 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2938 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,165 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2938 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,165 - org.hibernate.loader.entity.plan.EntityLoader -2938 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [PESSIMISTIC_WRITE]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for update
+[framework] 2017-05-11 15:26:49,165 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2938 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@62417a16]
+[framework] 2017-05-11 15:26:49,166 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2939 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,166 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2939 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,166 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2939 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,167 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2940 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,167 - org.hibernate.loader.entity.plan.EntityLoader -2940 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [PESSIMISTIC_FORCE_INCREMENT]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=? for update nowait 
+[framework] 2017-05-11 15:26:49,167 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2940 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@26be6ca7]
+[framework] 2017-05-11 15:26:49,167 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2940 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,167 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2940 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,168 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2941 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,168 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2941 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,168 - org.hibernate.loader.entity.plan.EntityLoader -2941 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [OPTIMISTIC]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=?
+[framework] 2017-05-11 15:26:49,169 - org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl -2942 [main] DEBUG org.hibernate.loader.plan.build.internal.spaces.QuerySpacesImpl  - Adding QuerySpace : uid = <gen:0> -> org.hibernate.loader.plan.build.internal.spaces.EntityQuerySpaceImpl@759fad4]
+[framework] 2017-05-11 15:26:49,169 - org.hibernate.persister.walking.spi.MetamodelGraphWalker -2942 [main] DEBUG org.hibernate.persister.walking.spi.MetamodelGraphWalker  - Visiting attribute path : cao
+[framework] 2017-05-11 15:26:49,169 - org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy -2942 [main] DEBUG org.hibernate.loader.plan.build.internal.FetchStyleLoadPlanBuildingAssociationVisitationStrategy  - Building LoadPlan...
+[framework] 2017-05-11 15:26:49,169 - org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor -2942 [main] DEBUG org.hibernate.loader.plan.exec.internal.LoadQueryJoinAndFetchProcessor  - processing queryspace <gen:0>
+[framework] 2017-05-11 15:26:49,170 - org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter -2943 [main] DEBUG org.hibernate.loader.plan.build.spi.LoadPlanTreePrinter  - LoadPlan(entity=yuan.ocean.Entity.TestMy)
+    - Returns
+       - EntityReturnImpl(entity=yuan.ocean.Entity.TestMy, querySpaceUid=<gen:0>, path=yuan.ocean.Entity.TestMy)
+    - QuerySpaces
+       - EntityQuerySpaceImpl(uid=<gen:0>, entity=yuan.ocean.Entity.TestMy)
+          - SQL table alias mapping - testmy0_
+          - alias suffix - 0_
+          - suffixed key columns - {wo1_0_0_}
+
+[framework] 2017-05-11 15:26:49,170 - org.hibernate.loader.entity.plan.EntityLoader -2943 [main] DEBUG org.hibernate.loader.entity.plan.EntityLoader  - Static select for entity yuan.ocean.Entity.TestMy [OPTIMISTIC_FORCE_INCREMENT]: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=?
+[framework] 2017-05-11 15:26:49,170 - org.hibernate.loader.Loader -2943 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_MERGE on entity yuan.ocean.Entity.TestMy: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=?
+[framework] 2017-05-11 15:26:49,170 - org.hibernate.loader.Loader -2943 [main] DEBUG org.hibernate.loader.Loader  - Static select for action ACTION_REFRESH on entity yuan.ocean.Entity.TestMy: select testmy0_.wo as wo1_0_0_, testmy0_.cao as cao2_0_0_ from testMy testmy0_ where testmy0_.wo=?
+[framework] 2017-05-11 15:26:49,259 - org.hibernate.internal.SessionFactoryRegistry -3032 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Initializing SessionFactoryRegistry : org.hibernate.internal.SessionFactoryRegistry@64c2b546
+[framework] 2017-05-11 15:26:49,261 - org.hibernate.internal.SessionFactoryRegistry -3034 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Registering SessionFactory: 9a411319-b168-4bb3-9c2b-4416d7fa723f (<unnamed>)
+[framework] 2017-05-11 15:26:49,261 - org.hibernate.internal.SessionFactoryRegistry -3034 [main] DEBUG org.hibernate.internal.SessionFactoryRegistry  - Not binding SessionFactory to JNDI, no JNDI name configured
+[framework] 2017-05-11 15:26:49,262 - org.hibernate.internal.SessionFactoryImpl -3035 [main] DEBUG org.hibernate.internal.SessionFactoryImpl  - Instantiated session factory
+[framework] 2017-05-11 15:26:49,271 - org.hibernate.tool.hbm2ddl.SchemaUpdate -3044 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate  - HHH000228: Running hbm2ddl schema update
+[framework] 2017-05-11 15:26:49,271 - org.hibernate.tool.hbm2ddl.SchemaUpdate -3044 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate  - HHH000102: Fetching database metadata
+[framework] 2017-05-11 15:26:49,277 - org.hibernate.tool.hbm2ddl.SchemaUpdate -3050 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate  - HHH000396: Updating schema
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing hbm.xml files
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Process annotated classes
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing fk mappings (*ToOne and JoinedSubclass)
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing extends queue
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing collection mappings
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing native query and ResultSetMapping mappings
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing association property references
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Creating tables' unique integer identifiers
+[framework] 2017-05-11 15:26:49,278 - org.hibernate.cfg.Configuration -3051 [main] DEBUG org.hibernate.cfg.Configuration  - Processing foreign key constraints
+[framework] 2017-05-11 15:26:49,333 - org.hibernate.tool.hbm2ddl.TableMetadata -3106 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000261: Table found: public.testmy
+[framework] 2017-05-11 15:26:49,334 - org.hibernate.tool.hbm2ddl.TableMetadata -3107 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000037: Columns: [cao, wo]
+[framework] 2017-05-11 15:26:49,334 - org.hibernate.tool.hbm2ddl.TableMetadata -3107 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000108: Foreign keys: []
+[framework] 2017-05-11 15:26:49,334 - org.hibernate.tool.hbm2ddl.TableMetadata -3107 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000126: Indexes: [testmy_pkey]
+[framework] 2017-05-11 15:26:49,363 - org.hibernate.tool.hbm2ddl.TableMetadata -3136 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000261: Table found: public.tstation
+[framework] 2017-05-11 15:26:49,363 - org.hibernate.tool.hbm2ddl.TableMetadata -3136 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000037: Columns: [lasttime, stationid]
+[framework] 2017-05-11 15:26:49,363 - org.hibernate.tool.hbm2ddl.TableMetadata -3136 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000108: Foreign keys: []
+[framework] 2017-05-11 15:26:49,363 - org.hibernate.tool.hbm2ddl.TableMetadata -3136 [main] INFO  org.hibernate.tool.hbm2ddl.TableMetadata  - HHH000126: Indexes: [tstation_pkey]
+[framework] 2017-05-11 15:26:49,363 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -3136 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQL9Dialect]
+[framework] 2017-05-11 15:26:49,364 - org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory -3137 [main] DEBUG org.hibernate.id.factory.internal.DefaultIdentifierGeneratorFactory  - Setting dialect [org.hibernate.dialect.PostgreSQL9Dialect]
+[framework] 2017-05-11 15:26:49,364 - org.hibernate.tool.hbm2ddl.SchemaUpdate -3137 [main] INFO  org.hibernate.tool.hbm2ddl.SchemaUpdate  - HHH000232: Schema update complete
+[framework] 2017-05-11 15:26:49,369 - org.hibernate.internal.NamedQueryRepository -3142 [main] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named HQL queries
+[framework] 2017-05-11 15:26:49,369 - org.hibernate.internal.NamedQueryRepository -3142 [main] DEBUG org.hibernate.internal.NamedQueryRepository  - Checking 0 named SQL queries
+[framework] 2017-05-11 15:26:49,376 - org.hibernate.stat.internal.StatisticsInitiator -3149 [main] DEBUG org.hibernate.stat.internal.StatisticsInitiator  - Statistics initialized [enabled=false]
+[framework] 2017-05-11 15:26:49,497 - org.hibernate.engine.transaction.spi.AbstractTransactionImpl -3270 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - begin
+[framework] 2017-05-11 15:26:49,497 - org.hibernate.engine.jdbc.internal.LogicalConnectionImpl -3270 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtaining JDBC connection
+[framework] 2017-05-11 15:26:49,497 - org.hibernate.engine.jdbc.internal.LogicalConnectionImpl -3270 [main] DEBUG org.hibernate.engine.jdbc.internal.LogicalConnectionImpl  - Obtained JDBC connection
+[framework] 2017-05-11 15:26:49,497 - org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction -3270 [main] DEBUG org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction  - initial autocommit status: false
+[framework] 2017-05-11 15:26:49,562 - org.hibernate.event.internal.AbstractSaveEventListener -3335 [main] DEBUG org.hibernate.event.internal.AbstractSaveEventListener  - Generated identifier: 1, using strategy: org.hibernate.id.Assigned
+[framework] 2017-05-11 15:27:19,771 - org.hibernate.engine.transaction.spi.AbstractTransactionImpl -33544 [main] DEBUG org.hibernate.engine.transaction.spi.AbstractTransactionImpl  - committing
+[framework] 2017-05-11 15:27:19,773 - org.hibernate.event.internal.AbstractFlushingEventListener -33546 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Processing flush-time cascades
+[framework] 2017-05-11 15:27:19,775 - org.hibernate.event.internal.AbstractFlushingEventListener -33548 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Dirty checking collections
+[framework] 2017-05-11 15:27:19,780 - org.hibernate.event.internal.AbstractFlushingEventListener -33553 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 1 insertions, 0 updates, 0 deletions to 1 objects
+[framework] 2017-05-11 15:27:19,780 - org.hibernate.event.internal.AbstractFlushingEventListener -33553 [main] DEBUG org.hibernate.event.internal.AbstractFlushingEventListener  - Flushed: 0 (re)creations, 0 updates, 0 removals to 0 collections
+[framework] 2017-05-11 15:27:19,783 - org.hibernate.internal.util.EntityPrinter -33556 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - Listing entities:
+[framework] 2017-05-11 15:27:19,783 - org.hibernate.internal.util.EntityPrinter -33556 [main] DEBUG org.hibernate.internal.util.EntityPrinter  - yuan.ocean.Entity.TestMy{cao=2, wo=1}
+[framework] 2017-05-11 15:27:19,800 - org.hibernate.SQL -33573 [main] DEBUG org.hibernate.SQL  - insert into testMy (cao, wo) values (?, ?)
+[framework] 2017-05-11 15:27:19,808 - org.hibernate.engine.jdbc.spi.SqlExceptionHelper -33581 [main] DEBUG org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - could not execute statement [n/a]
+org.postgresql.util.PSQLException: 错误: 重复键违反唯一约束"testmy_pkey"
+  详细：键值"(wo)=(1)" 已经存在
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2102)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1835)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:257)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:500)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:388)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:334)
+	at org.hibernate.engine.jdbc.internal.ResultSetReturnImpl.executeUpdate(ResultSetReturnImpl.java:208)
+	at org.hibernate.engine.jdbc.batch.internal.NonBatchingBatch.addToBatch(NonBatchingBatch.java:62)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3124)
+	at org.hibernate.persister.entity.AbstractEntityPersister.insert(AbstractEntityPersister.java:3581)
+	at org.hibernate.action.internal.EntityInsertAction.execute(EntityInsertAction.java:104)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:465)
+	at org.hibernate.engine.spi.ActionQueue.executeActions(ActionQueue.java:351)
+	at org.hibernate.event.internal.AbstractFlushingEventListener.performExecutions(AbstractFlushingEventListener.java:350)
+	at org.hibernate.event.internal.DefaultFlushEventListener.onFlush(DefaultFlushEventListener.java:56)
+	at org.hibernate.internal.SessionImpl.flush(SessionImpl.java:1258)
+	at org.hibernate.internal.SessionImpl.managedFlush(SessionImpl.java:425)
+	at org.hibernate.engine.transaction.internal.jdbc.JdbcTransaction.beforeTransactionCommit(JdbcTransaction.java:101)
+	at org.hibernate.engine.transaction.spi.AbstractTransactionImpl.commit(AbstractTransactionImpl.java:177)
+	at yuan.ocean.test.main(test.java:42)
+[framework] 2017-05-11 15:27:19,811 - org.hibernate.engine.jdbc.spi.SqlExceptionHelper -33584 [main] WARN  org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - SQL Error: 0, SQLState: 23505
+[framework] 2017-05-11 15:27:19,811 - org.hibernate.engine.jdbc.spi.SqlExceptionHelper -33584 [main] ERROR org.hibernate.engine.jdbc.spi.SqlExceptionHelper  - 错误: 重复键违反唯一约束"testmy_pkey"
+  详细：键值"(wo)=(1)" 已经存在
+[framework] 2017-05-11 15:27:19,814 - org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl -33587 [main] INFO  org.hibernate.engine.jdbc.batch.internal.AbstractBatchImpl  - HHH000010: On release of batch it still contained JDBC statements
