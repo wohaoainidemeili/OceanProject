@@ -1,14 +1,14 @@
 package yuan.ocean.Util;
 
 import net.opengis.gml.*;
-import net.opengis.gml.CountDocument;
-import net.opengis.gml.QuantityDocument;
 import net.opengis.gml.TimePositionType;
 import net.opengis.om.x10.ObservationType;
 import net.opengis.om.x10.ProcessPropertyType;
 import net.opengis.ows.x11.AcceptVersionsType;
 import net.opengis.ows.x11.SectionsType;
 import net.opengis.ows.x11.VersionType;
+import net.opengis.sampling.x10.SamplingPointDocument;
+import net.opengis.sampling.x10.SamplingPointType;
 import net.opengis.sampling.x10.SamplingSurfaceDocument;
 import net.opengis.sampling.x10.SamplingSurfaceType;
 import net.opengis.sos.x10.DescribeSensorDocument;
@@ -214,7 +214,7 @@ public class Encode {
         CompositePhenomenonDocument compositePhenomenonDocument=CompositePhenomenonDocument.Factory.newInstance();
         CompositePhenomenonType compositePhenomenonType=compositePhenomenonDocument.addNewCompositePhenomenon();
         compositePhenomenonType.setId("cpid0");
-        compositePhenomenonType.setDimension(BigInteger.ONE);
+        //compositePhenomenonType.setDimension(BigInteger.ONE);
         CodeType name= compositePhenomenonType.addNewName();
         name.set("resultComponents");
         //add gregorian time property
@@ -225,34 +225,50 @@ public class Encode {
             PhenomenonPropertyType propertyComponent= compositePhenomenonType.addNewComponent();
             propertyComponent.setHref(property.getPropertyID());
         }
+        compositePhenomenonType.setDimension(BigInteger.valueOf(1+sosWrapper.properties.size()));
         phenomenonPropertyType.set(compositePhenomenonDocument);
 
+        //create feauture of Interest by lat and lon
+        String latlonStr=sosWrapper.getLat()+" "+sosWrapper.getLon();
+        FeaturePropertyType featureOfInterest= observationType.addNewFeatureOfInterest();
+        SamplingPointDocument samplingPointDocument= SamplingPointDocument.Factory.newInstance();
+        SamplingPointType samplingPointType=samplingPointDocument.addNewSamplingPoint();
+        samplingPointType.setId(latlonStr);
+        CodeType samplePointName=samplingPointType.addNewName();
+        samplePointName.set(latlonStr);
+        PointPropertyType position= samplingPointType.addNewPosition();
+        PointType pointType=position.addNewPoint();
+        pointType.setSrsName("urn:ogc:def:crs:EPSG::" + sosWrapper.getSrid());
+        DirectPositionType pos= pointType.addNewPos();
+        pos.set(latlonStr);
+        featureOfInterest.set(samplingPointDocument);
         //Create Feature of Interest
         //String latlonStr=sosWrapper.getLat()+" "+sosWrapper.getLon();
-        FeaturePropertyType featureOfInterest= observationType.addNewFeatureOfInterest();
-        featureOfInterest.setTitle("eastsea");
-        SamplingSurfaceDocument samplingSurfaceDocument=SamplingSurfaceDocument.Factory.newInstance();
-        SamplingSurfaceType samplingSurfaceType=samplingSurfaceDocument.addNewSamplingSurface();
-        samplingSurfaceType.setId("eastsea");
-        CodeType foiName= samplingSurfaceType.addNewName();
-        foiName.set("donghai");
-        FeaturePropertyType featurePropertyType= samplingSurfaceType.addNewSampledFeature();
-        featurePropertyType.setHref("urn:ogc:def:nil:OGC:unknown");
-        SurfacePropertyType  shape= samplingSurfaceType.addNewShape();
-
-        PolygonDocument polygonDocument=PolygonDocument.Factory.newInstance();
-        PolygonType polygonType=  polygonDocument.addNewPolygon();
-        polygonType.setId("polygon_sf_0");
-        AbstractRingPropertyType abstractRingPropertyType= polygonType.addNewExterior();
-        LinearRingDocument linearRingDocument=LinearRingDocument.Factory.newInstance();
-        LinearRingType linearRingType= linearRingDocument.addNewLinearRing();
-        DirectPositionListType pointListType= linearRingType.addNewPosList();
-        pointListType.setSrsName("urn:ogc:def:crs:EPSG::4326");
-        //fixed location of donghai range
-        pointListType.set("21.5 117.0 21.5 131.1 33.2 131.1 33.2 117.0 21.5 117.0");
-        abstractRingPropertyType.set(linearRingDocument);
-        shape.set(polygonDocument);
-        featureOfInterest.set(samplingSurfaceDocument);
+//        FeaturePropertyType featureOfInterest= observationType.addNewFeatureOfInterest();
+//        featureOfInterest.setTitle("eastsea");
+//        SamplingSurfaceDocument samplingSurfaceDocument=SamplingSurfaceDocument.Factory.newInstance();
+//        SamplingSurfaceType samplingSurfaceType=samplingSurfaceDocument.addNewSamplingSurface();
+//        samplingSurfaceType.setId("eastsea");
+//        CodeType foiName= samplingSurfaceType.addNewName();
+//        foiName.set("donghai");
+//        FeaturePropertyType featurePropertyType= samplingSurfaceType.addNewSampledFeature();
+//        featurePropertyType.setHref("urn:ogc:def:nil:OGC:unknown");
+//        SurfacePropertyType  shape= samplingSurfaceType.addNewShape();
+//
+//        PolygonDocument polygonDocument=PolygonDocument.Factory.newInstance();
+//        PolygonType polygonType=  polygonDocument.addNewPolygon();
+//        polygonType.setId("polygon_sf_0");
+//        polygonType.setSrsName("urn:ogc:def:crs:EPSG::4326");
+//        AbstractRingPropertyType abstractRingPropertyType= polygonType.addNewExterior();
+//        LinearRingDocument linearRingDocument=LinearRingDocument.Factory.newInstance();
+//        LinearRingType linearRingType= linearRingDocument.addNewLinearRing();
+//        DirectPositionListType pointListType= linearRingType.addNewPosList();
+////        pointListType.setSrsName("urn:ogc:def:crs:EPSG::4326");
+//        //fixed location of donghai range
+//        pointListType.set("21.5 117.0 21.5 131.1 33.2 131.1 33.2 117.0 21.5 117.0");
+//        abstractRingPropertyType.set(linearRingDocument);
+//        shape.set(polygonDocument);
+//        featureOfInterest.set(samplingSurfaceDocument);
         
 //        SamplingPointDocument samplingPointDocument=SamplingPointDocument.Factory.newInstance();
 //        SamplingPointType samplingPointType=samplingPointDocument.addNewSamplingPoint();
@@ -285,19 +301,23 @@ public class Encode {
         //create other property field
         for (ObservedProperty property:sosWrapper.properties){
             DataComponentPropertyType propertyField = propertyDataRecord.addNewField();
-            if (property.getPropertyID().equals("urn:ogc:def:phenomenon:OGC:1.0.30:position")){
+            if (property.getTypeOfProperty().equals("Position")) {
                 PositionDocument positionDocument=PositionDocument.Factory.newInstance();
                 PositionType dataRecordType= positionDocument.addNewPosition();
                 dataRecordType.setDefinition(property.getPropertyID());
                 propertyField.set(positionDocument);
                 propertyField.setName(property.getPropertyName());
-            }else {
-
+            }else if (property.getTypeOfProperty().equals("Quantity")){
                 propertyField.setName(property.getPropertyName().trim());
                 // the default property is demicial
                 net.opengis.swe.x101.QuantityDocument.Quantity quantity = propertyField.addNewQuantity();
                 quantity.setDefinition(property.getPropertyID());
                 quantity.addNewUom().setCode(property.getUnit());
+            }else if (property.getTypeOfProperty().equals("Text")){
+                propertyField.setName(property.getPropertyName().trim());
+                // the default property is demicia
+                TextDocument.Text text= propertyField.addNewText();
+                text.setDefinition(property.getPropertyID());
             }
         }
         dataComponentPropertyType.set(eleDataRecordDocument);
@@ -313,6 +333,172 @@ public class Encode {
         String values=sosWrapper.getSimpleTime();
         for (ObservedProperty property: sosWrapper.properties){
             values=values+","+property.getDataValue();
+        }
+
+        Node pNode= valuePropertyType.getDomNode();
+        Node node= pNode.getOwnerDocument().createTextNode(values+";");
+        pNode.appendChild(node);
+        //valuePropertyType.getDomNode().getFirstChild().setNodeValue(values + ";");
+        resultType.set(dataArrayDocument);
+
+
+        //print xml as string
+        //output xml
+        XmlOptions options=new XmlOptions();
+        Map<String,String> nameSpace=new HashMap<String,String>();
+        nameSpace.put("http://www.opengis.net/sos/1.0","");
+        nameSpace.put("http://www.opengis.net/ows/1.1","ows");
+        nameSpace.put("http://www.opengis.net/ogc","ogc");
+        nameSpace.put("http://www.opengis.net/om/1.0","om");
+        nameSpace.put("http://www.opengis.net/sos/1.0","sos");
+        nameSpace.put("http://www.opengis.net/sampling/1.0","sa");
+        nameSpace.put("http://www.opengis.net/gml","gml");
+        nameSpace.put("http://www.opengis.net/swe/1.0.1","swe");
+        nameSpace.put("http://www.w3.org/1999/xlink","xlink");
+        nameSpace.put("http://www.w3.org/2001/XMLSchema-instance","xsi");
+        options.setSaveSuggestedPrefixes(nameSpace);
+        options.setSaveAggressiveNamespaces();
+        options.setSavePrettyPrint();
+        //options.setCharacterEncoding("UTF-8");
+        insertSensorML= insertObservationDocument.xmlText(options);//get insertobservation xml
+        return insertSensorML;
+    }
+    public static String getInsertImageObservationXML(SOSWrapper sosWrapper){
+        String insertSensorML="";
+        //create insertObservation xml
+        //new an insertobservationdocument for creating xml
+        InsertObservationDocument insertObservationDocument=InsertObservationDocument.Factory.newInstance();
+        InsertObservationDocument.InsertObservation insertObservation =insertObservationDocument.addNewInsertObservation();
+        insertObservation.setVersion("1.0.0");
+        insertObservation.setService("SOS");
+
+        insertObservation.setAssignedSensorId(sosWrapper.getSensorID());
+        ObservationType observationType= insertObservation.addNewObservation();
+
+        //create time info xml
+        //create timeInstance
+        TimeObjectPropertyType timeSample=observationType.addNewSamplingTime();
+        //create timeinstance
+        TimeInstantDocument timeInstantDocument=TimeInstantDocument.Factory.newInstance();
+        TimeInstantType timeInstantType= timeInstantDocument.addNewTimeInstant();
+        //create timepostion
+        TimePositionType timePositionType=TimePositionType.Factory.newInstance();
+        timePositionType.set(sosWrapper.getSimpleTime());
+        timeInstantType.setTimePosition(timePositionType);
+
+        timeSample.set(timeInstantDocument);
+        //create procedure
+        ProcessPropertyType procedureType= observationType.addNewProcedure();
+        procedureType.setHref(sosWrapper.getSensorID());
+
+        //create observationProperty
+        PhenomenonPropertyType phenomenonPropertyType= observationType.addNewObservedProperty();
+        //create compositePhenomenon
+        CompositePhenomenonDocument compositePhenomenonDocument=CompositePhenomenonDocument.Factory.newInstance();
+        CompositePhenomenonType compositePhenomenonType=compositePhenomenonDocument.addNewCompositePhenomenon();
+        compositePhenomenonType.setId("cpid0");
+
+        CodeType name= compositePhenomenonType.addNewName();
+        name.set("resultComponents");
+        //add gregorian time property
+        PhenomenonPropertyType timeComponent= compositePhenomenonType.addNewComponent();
+        timeComponent.setHref("http://www.opengis.net/def/uom/ISO-8601/0/Gregorian");
+        //add the property defined in SOSWrapper
+        for (ObservedProperty property:sosWrapper.properties){
+            PhenomenonPropertyType propertyComponent= compositePhenomenonType.addNewComponent();
+            propertyComponent.setHref(property.getPropertyID());
+        }
+        compositePhenomenonType.setDimension(BigInteger.valueOf(1+sosWrapper.properties.size()));
+        phenomenonPropertyType.set(compositePhenomenonDocument);
+
+        //Create Feature of Interest
+        //String latlonStr=sosWrapper.getLat()+" "+sosWrapper.getLon();
+        FeaturePropertyType featureOfInterest= observationType.addNewFeatureOfInterest();
+        featureOfInterest.setTitle("Aglobal_epsg4326");
+        SamplingSurfaceDocument samplingSurfaceDocument=SamplingSurfaceDocument.Factory.newInstance();
+        SamplingSurfaceType samplingSurfaceType=samplingSurfaceDocument.addNewSamplingSurface();
+        samplingSurfaceType.setId("Aglobal_epsg4326");
+        CodeType foiName= samplingSurfaceType.addNewName();
+        foiName.set("earth");
+        FeaturePropertyType featurePropertyType= samplingSurfaceType.addNewSampledFeature();
+        featurePropertyType.setHref("urn:ogc:def:nil:OGC:unknown");
+        SurfacePropertyType  shape= samplingSurfaceType.addNewShape();
+
+        PolygonDocument polygonDocument=PolygonDocument.Factory.newInstance();
+        PolygonType polygonType=  polygonDocument.addNewPolygon();
+        polygonType.setId("polygon_sf_1");
+        polygonType.setSrsName("urn:ogc:def:crs:EPSG::4326");
+        AbstractRingPropertyType abstractRingPropertyType= polygonType.addNewExterior();
+        LinearRingDocument linearRingDocument=LinearRingDocument.Factory.newInstance();
+        LinearRingType linearRingType= linearRingDocument.addNewLinearRing();
+        DirectPositionListType pointListType= linearRingType.addNewPosList();
+//        pointListType.setSrsName("urn:ogc:def:crs:EPSG::4326");
+        //fixed location of donghai range
+        pointListType.set("90.0 -180.0 -90.0 -180.0 -90.0 180.0 90.0 180.0 90.0 -180.0");
+        abstractRingPropertyType.set(linearRingDocument);
+        shape.set(polygonDocument);
+        featureOfInterest.set(samplingSurfaceDocument);
+
+//        SamplingPointDocument samplingPointDocument=SamplingPointDocument.Factory.newInstance();
+//        SamplingPointType samplingPointType=samplingPointDocument.addNewSamplingPoint();
+//        samplingPointType.setId(latlonStr);
+//        CodeType samplePointName=samplingPointType.addNewName();
+//        samplePointName.set(latlonStr);
+//        PointPropertyType position= samplingPointType.addNewPosition();
+//        PointType pointType=position.addNewPoint();
+//        pointType.setSrsName("urn:ogc:def:crs:EPSG::" + sosWrapper.getSrid());
+//        DirectPositionType pos= pointType.addNewPos();
+//        pos.set(latlonStr);
+//        featureOfInterest.set(samplingPointDocument);
+        //create result
+        XmlObject resultType= observationType.addNewResult();
+
+        //create element under data record
+        DataArrayDocument dataArrayDocument=DataArrayDocument.Factory.newInstance();
+        DataArrayType dataArrayType=dataArrayDocument.addNewDataArray1();
+        AbstractDataArrayType.ElementCount elementCount=dataArrayType.addNewElementCount();
+        net.opengis.swe.x101.CountDocument.Count count= elementCount.addNewCount();
+        count.setValue(BigInteger.valueOf(1));
+        DataComponentPropertyType dataComponentPropertyType= dataArrayType.addNewElementType();
+        //elementType dataRecordDocument
+        DataRecordDocument eleDataRecordDocument=DataRecordDocument.Factory.newInstance();
+        DataRecordType propertyDataRecord=eleDataRecordDocument.addNewDataRecord();
+        //create time field
+        DataComponentPropertyType timeField= propertyDataRecord.addNewField();
+        timeField.setName("Time");
+        timeField.addNewTime().setDefinition("http://www.opengis.net/def/uom/ISO-8601/0/Gregorian");
+        //create other property field
+        for (ObservedProperty property:sosWrapper.properties){
+            DataComponentPropertyType propertyField = propertyDataRecord.addNewField();
+            if (property.getTypeOfProperty().equals("Text")) {
+                //insert spatial wkt rect
+                if (property.getPropertyID().equals("urn:ogc:def:phenomenon:OGC:1.0.30:WKT")) {
+                    PositionDocument positionDocument = PositionDocument.Factory.newInstance();
+                    PositionType dataRecordType = positionDocument.addNewPosition();
+                    dataRecordType.setDefinition(property.getPropertyID());
+                    propertyField.set(positionDocument);
+                    propertyField.setName(property.getPropertyName());
+                } else {
+                    propertyField.setName(property.getPropertyName().trim());
+                    // the default property is demicia
+                    TextDocument.Text text = propertyField.addNewText();
+                    text.setDefinition(property.getPropertyID());
+                }
+            }
+        }
+        dataComponentPropertyType.set(eleDataRecordDocument);
+        dataComponentPropertyType.setName("Components");
+        BlockEncodingPropertyType encodingPropertyType= dataArrayType.addNewEncoding();
+        TextBlockDocument.TextBlock textBlock= encodingPropertyType.addNewTextBlock();
+        textBlock.setDecimalSeparator(".");
+        textBlock.setTokenSeparator(",_,");
+        textBlock.setBlockSeparator(";");
+
+        DataValuePropertyType valuePropertyType=dataArrayType.addNewValues();
+        //create observation value string
+        String values=sosWrapper.getSimpleTime();
+        for (ObservedProperty property: sosWrapper.properties){
+            values=values+",_,"+property.getDataValue();
         }
 
         Node pNode= valuePropertyType.getDomNode();

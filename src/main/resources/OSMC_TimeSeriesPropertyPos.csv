@@ -1,0 +1,14 @@
+time,1
+urn:ogc:def:property:OGC:1.0:observationDepth,2
+urn:ogc:def:property:OGC:1.0:seaSurfaceTemperature,3
+urn:ogc:def:property:OGC:1.0:airTemperature,4
+urn:ogc:def:property:OGC:1.0:ztmp,5
+urn:ogc:def:property:OGC:1.0:zsal,6
+urn:ogc:def:property:OGC:1.0:surfaceAirPressure,7
+urn:ogc:def:property:OGC:1.0:windSpeed,8
+urn:ogc:def:property:OGC:1.0:windDirection,9
+urn:ogc:def:property:OGC:1.0:wvht,10
+urn:ogc:def:property:OGC:1.0:seaWaterLevel,11
+urn:ogc:def:property:OGC:1.0:dewPoint,12
+urn:ogc:def:property:OGC:1.0:seaWaterLevelMetRes,13
+urn:ogc:def:property:OGC:1.0:seaWaterLevelWrtLcd,14

@@ -58,7 +58,7 @@ public class ERDDAPDecodeFile implements IDecodeFile {
                                         property.tempSumValue = property.tempSumValue + Double.valueOf(eles[linkedProperty.get(property.getPropertyID())]);
                                     property.count++;
                                 } else {
-                                    property.setDataValue("POINT(" + eles[latPos] + " " + eles[lonPos] + ")#" + sensor.getSrsid());
+                                    property.setDataValue("POINT(" + eles[latPos] + " " + eles[lonPos] + ")#4326");
                                 }
                             }
                         }
@@ -91,7 +91,7 @@ public class ERDDAPDecodeFile implements IDecodeFile {
                                     property.tempSumValue = property.tempSumValue + Double.valueOf(eles[linkedProperty.get(property.getPropertyID())]);
                                     property.count++;
                                 } else {
-                                    property.setDataValue("POINT(" + eles[latPos] + " " + eles[lonPos] + ")#" + sensor.getSrsid());
+                                    property.setDataValue("POINT(" + eles[latPos] + " " + eles[lonPos] + ")#4326");
                                 }
                             }
                         }
@@ -166,6 +166,7 @@ public class ERDDAPDecodeFile implements IDecodeFile {
                         }
                     }
                 }
+
                 SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd'T'HH:mm:ss'Z'");
                 try {
                     Date date = simpleDateFormat.parse(dateLatestStr);

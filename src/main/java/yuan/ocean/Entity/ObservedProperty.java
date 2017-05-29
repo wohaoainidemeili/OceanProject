@@ -12,7 +12,7 @@ public class ObservedProperty implements Serializable {
     private String unit;
     private String dataValue;
     public double tempSumValue=0;
-
+    private String typeOfProperty;
     public int count=0;
 
     public String getDataValue() {
@@ -61,5 +61,13 @@ public class ObservedProperty implements Serializable {
 
     public void setTempSumValue(double tempSumValue) {
         this.tempSumValue = tempSumValue;
+    }
+
+    public String getTypeOfProperty() {
+        return typeOfProperty;
+    }
+
+    public void setTypeOfProperty(String typeOfProperty) {
+        this.typeOfProperty = typeOfProperty;
     }
 }

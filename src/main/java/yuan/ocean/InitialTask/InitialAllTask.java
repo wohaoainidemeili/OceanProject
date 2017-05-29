@@ -19,7 +19,7 @@ import java.util.concurrent.TimeUnit;
 public class InitialAllTask {
     private static final Logger log=Logger.getLogger(InitialAllTask.class);
     private static Timer timer = new Timer("observation-timer");
-    private static ScheduledExecutorService scheduledExecutorService= Executors.newScheduledThreadPool(10);
+    private static ScheduledExecutorService scheduledExecutorService= Executors.newScheduledThreadPool(12);
     public static void startTask(){
         //the file has 6 columns
         //1.the url of the observation 2.the property you want to get 3.current kind of station IDs 4.property reflect relationship file
@@ -48,7 +48,7 @@ public class InitialAllTask {
                 log.info("start to load ObservationDownInsertTask for"+eles[0]);
                 ObservationDownInsertTaskThread downInsertTask=new ObservationDownInsertTaskThread(eles[0],eles[1],eles[2],eles[3],eles[4],eles[5],eles[6]);
                // scheduledExecutorService.schedule(downInsertTask, 20000, TimeUnit.MILLISECONDS);
-                scheduledExecutorService.scheduleAtFixedRate(downInsertTask,20000,5*24*3600*1000,TimeUnit.MILLISECONDS);
+                scheduledExecutorService.scheduleAtFixedRate(downInsertTask,20000,15*24*3600*1000,TimeUnit.MILLISECONDS);
             }
             bufferedReader.close();
         } catch (IOException e) {

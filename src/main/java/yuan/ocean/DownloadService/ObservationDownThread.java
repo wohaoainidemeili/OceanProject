@@ -30,15 +30,19 @@ public class ObservationDownThread extends Thread {
             date=new Date();
             dateStr= simpleDateFormat.format(date).replace("+0800","Z");
             if (restrictProperty.equals("platform_code"))
-                downloadUrl=url+property+"&"+restrictProperty+"=\""+platCode+"\"&time<="+dateStr+"&orderBy(\"time\")";
+               // downloadUrl=url+property+"&"+restrictProperty+"=\""+platCode+"\"&time<="+dateStr+"&orderBy(\"time\")";
+                downloadUrl=url+property+"&"+restrictProperty+"=\""+platCode+"\"&time%3C="+dateStr+"&orderBy(%22time%22)";
             else
-                downloadUrl=url+property+"&"+restrictProperty+"="+platCode+"&time<="+dateStr+"&orderBy(\"time\")";
+               // downloadUrl=url+property+"&"+restrictProperty+"="+platCode+"&time<="+dateStr+"&orderBy(\"time\")";
+                downloadUrl=url+property+"&"+restrictProperty+"="+platCode+"&time%3C="+dateStr+"&orderBy(%22time%22)";
         }else {
             dateStr = simpleDateFormat.format(date).replace("+0800", "Z");
             if (restrictProperty.equals("platform_code"))
-                downloadUrl = url + property + "&"+restrictProperty+"=\"" + platCode + "\"&time>" + dateStr + "&orderBy(\"time\")";
+                //downloadUrl = url + property + "&"+restrictProperty+"=\"" + platCode + "\"&time>" + dateStr + "&orderBy(\"time\")";
+                downloadUrl = url + property + "&"+restrictProperty+"=\"" + platCode + "\"&time%3E" + dateStr + "&orderBy(%22time%22)";
             else
-                downloadUrl = url + property + "&"+restrictProperty+"=" + platCode + "&time>" + dateStr + "&orderBy(\"time\")";
+            // downloadUrl = url + property + "&"+restrictProperty+"=" + platCode + "&time>" + dateStr + "&orderBy(\"time\")";
+                downloadUrl = url + property + "&"+restrictProperty+"=" + platCode + "&time%3E" + dateStr + "&orderBy(%22time%22)";
         }
     }
     @Override

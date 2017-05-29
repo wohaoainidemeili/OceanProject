@@ -23,7 +23,7 @@ import java.util.Map;
 public class TAODecodeFile implements IDecodeFile {
     private final static Logger log=Logger.getLogger(TAODecodeFile.class);
     public void decode(Map<String, Integer> linkedProperty, String paltCode, Station station, String subFilePath) {
-        System.out.println("reading file"+SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\"+paltCode+".csv");
+       // System.out.println("reading file"+SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\"+paltCode+".csv");
         File file=new File(SensorConfigInfo.getDownloadpath()+"\\"+subFilePath+"\\"+paltCode+".csv");
         if (file.exists()){
             try {

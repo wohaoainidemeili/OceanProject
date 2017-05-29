@@ -40,7 +40,7 @@ public class DownloadInsertStorage {
     public  void insertObservation(Station station,String subFilePath,String fileDecodeClassName,Map<String,Integer> linkedProperty) {
         log.info("Start to insert Observation");
         synchronized (currentDownLoadFileCount) {
-            while (currentDownLoadFileCount.get() != attemptDownLoadFileCount) {
+            while (currentDownLoadFileCount.get()!= attemptDownLoadFileCount) {
                 try {
                     System.out.println(Thread.currentThread().getName()+"is waiting...");
                     currentDownLoadFileCount.wait();
