@@ -17,7 +17,7 @@ public class HttpRequestAndPost {
      * @return the return result xml
      */
     public static String sendPost(String url,String param){
-        String result="";
+        StringBuffer result=new StringBuffer();
         BufferedReader in=null;
         PrintWriter out=null;
         //http post
@@ -40,16 +40,25 @@ public class HttpRequestAndPost {
             in=new BufferedReader(new InputStreamReader(connection.getInputStream(),"UTF-8"));
             String line;
             while ((line=in.readLine())!=null){
-                result+=line;
+                result.append(line);
             }
             String encode=connection.getContentEncoding();
             String contentType=connection.getContentType();
-            return result;
+            return result.toString();
         } catch (MalformedURLException e) {
             System.out.println(e.getMessage());
         } catch (IOException e) {
             System.out.println(e.getMessage());
+        }finally {
+            if (in!=null)
+                try {
+                    in.close();
+                } catch (IOException e) {
+                    e.printStackTrace();
+                }
+            if (out!=null)
+                out.close();
         }
-        return  result;
+        return  result.toString();
     }
 }

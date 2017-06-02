@@ -24,12 +24,12 @@ public class DownloadInsertStorage {
     public void downLoadFile(String downloadUrl,String subFilePath,String filename){
 
         log.info("Start to download file "+filename+" from "+downloadUrl);
-        try {
-            System.out.println(SensorConfigInfo.getDownloadpath()+"\\"+subFilePath);
-            Download.downLoadFromUrl(downloadUrl,filename,SensorConfigInfo.getDownloadpath()+"\\"+subFilePath);
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
+//        try {
+//            System.out.println(SensorConfigInfo.getDownloadpath()+"\\"+subFilePath);
+//            Download.downLoadFromUrl(downloadUrl,filename,SensorConfigInfo.getDownloadpath()+"\\"+subFilePath);
+//        } catch (IOException e) {
+//            e.printStackTrace();
+//        }
         //finished download
         synchronized(currentDownLoadFileCount) {
             int count= currentDownLoadFileCount.getAndAdd(1);
